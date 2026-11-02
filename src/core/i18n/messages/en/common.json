@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "healix"
+  },
+  "common": {
+    "continue": "Continue",
+    "back": "Back",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "save": "Save",
+    "share": "Share",
+    "listen": "Listen",
+    "stop": "Stop",
+    "loading": "Loading…",
+    "tryAgain": "Try again",
+    "estimate": "Estimate",
+    "language": "Language",
+    "skipToContent": "Skip to content"
+  },
+  "nav": {
+    "howItWorks": "How it works",
+    "features": "Features",
+    "forHospitals": "For hospitals",
+    "signIn": "Sign in",
+    "tryDemo": "Try the demo",
+    "primary": "Primary",
+    "menu": "Menu",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language",
+    "emergency": "Emergency"
+  },
+  "tabs": {
+    "home": "Home",
+    "symptoms": "Symptoms",
+    "reports": "Reports",
+    "token": "Token",
+    "assistant": "Healix AI"
+  },
+  "disclaimer": {
+    "guidance": "Guidance, not diagnosis. Your doctor decides."
+  },
+  "errors": {
+    "generic": "Something went wrong. Please try again.",
+    "network": "We could not reach Healix. Check your connection and try again.",
+    "notFoundTitle": "This page does not exist",
+    "notFoundBody": "The link may be old. Go back to the start and try again.",
+    "goHome": "Go to the home page"
+  },
+  "voice": {
+    "start": "Speak",
+    "stop": "Stop recording",
+    "listening": "Listening…",
+    "transcribing": "Understanding what you said…",
+    "noticeSpeech": "Your voice is sent to Sarvam AI to turn it into text.",
+    "noticeListen": "This text is sent to Sarvam AI to be read aloud.",
+    "allow": "Allow and continue",
+    "heardAs": "Heard as: {{text}}",
+    "noSpeech": "We could not hear any words. Please try again.",
+    "denied": "Microphone access is blocked. You can type instead.",
+    "noDevice": "No microphone was found. You can type instead.",
+    "busy": "Too many tries. Please wait a moment.",
+    "unavailable": "Voice is not working right now. You can type instead.",
+    "listen": "Listen",
+    "stopListening": "Stop listening",
+    "loadingAudio": "Getting the voice ready…",
+    "listenFailed": "Could not read this aloud right now.",
+    "switchPrompt": "You typed in {{language}}. Switch Healix to {{language}}?",
+    "switch": "Switch",
+    "keep": "Not now",
+    "speakSymptoms": "Speak your symptoms",
+    "speakQuestion": "Speak your question"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "brand": {
+    "name": "healix"
+  },
+  "common": {
+    "continue": "Aage badhein",
+    "back": "Wapas",
+    "cancel": "Cancel karein",
+    "confirm": "Pakka karein",
+    "save": "Save karein",
+    "share": "Share karein",
+    "listen": "Suniye",
+    "stop": "Rukein",
+    "loading": "Load ho raha hai…",
+    "tryAgain": "Phir se koshish karein",
+    "estimate": "Andaza",
+    "language": "Bhasha",
+    "skipToContent": "Seedhe content par jayein"
+  },
+  "nav": {
+    "howItWorks": "Kaise kaam karta hai",
+    "features": "Features",
+    "forHospitals": "Hospitals ke liye",
+    "signIn": "Sign in",
+    "tryDemo": "Demo try karein",
+    "primary": "Main menu",
+    "menu": "Menu",
+    "openMenu": "Menu kholein",
+    "closeMenu": "Menu band karein",
+    "language": "Bhasha",
+    "emergency": "Emergency"
+  },
+  "tabs": {
+    "home": "Home",
+    "symptoms": "Lakshan",
+    "reports": "Reports",
+    "token": "Token",
+    "assistant": "Healix AI"
+  },
+  "disclaimer": {
+    "guidance": "Yeh guidance hai, diagnosis nahi. Faisla aapke doctor ka hai."
+  },
+  "errors": {
+    "generic": "Kuch gadbad ho gayi. Kripya phir se koshish karein.",
+    "network": "Healix tak nahi pahunch paye. Internet check karein aur phir koshish karein.",
+    "notFoundTitle": "Yeh page maujood nahi hai",
+    "notFoundBody": "Ho sakta hai link purana ho. Shuruaat par wapas jakar phir koshish karein.",
+    "goHome": "Home page par jayein"
+  },
+  "voice": {
+    "start": "Boliye",
+    "stop": "Recording roken",
+    "listening": "Sun raha hoon…",
+    "transcribing": "Aapki baat samajh raha hoon…",
+    "noticeSpeech": "Aapki awaaz ko text mein badalne ke liye Sarvam AI ko bheji jaati hai.",
+    "noticeListen": "Yeh text bolkar sunane ke liye Sarvam AI ko bheja jaata hai.",
+    "allow": "Anumati dein aur aage badhein",
+    "heardAs": "Suna gaya: {{text}}",
+    "noSpeech": "Koi shabd sunai nahi diye. Kripya phir koshish karein.",
+    "denied": "Microphone ki anumati band hai. Aap likhkar bata sakte hain.",
+    "noDevice": "Koi microphone nahi mila. Aap likhkar bata sakte hain.",
+    "busy": "Bahut baar koshish ho gayi. Kripya thoda rukein.",
+    "unavailable": "Awaaz abhi kaam nahi kar rahi. Aap likhkar bata sakte hain.",
+    "listen": "Suniye",
+    "stopListening": "Sunna rokein",
+    "loadingAudio": "Awaaz taiyar ho rahi hai…",
+    "listenFailed": "Abhi ise bolkar nahi suna pa rahe.",
+    "switchPrompt": "Aapne {{language}} mein likha. Kya Healix ko {{language}} mein badlein?",
+    "switch": "Badlein",
+    "keep": "Abhi nahi",
+    "speakSymptoms": "Bolkar bataiye",
+    "speakQuestion": "Apna sawaal bolein"
+  }
+}

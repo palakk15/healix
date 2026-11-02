@@ -1,0 +1,149 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Know where to go,<br/><i>before</i> you go.",
+      "lead": "Tell Healix how you feel, in your own language. It finds the right specialist, the right time to leave, and explains your reports gently.",
+      "placeholder": "Tell Healix how you feel…",
+      "inputLabel": "Describe how you feel",
+      "submit": "Find the right specialist",
+      "mic": "Speak your symptoms",
+      "tryDemo": "Try the demo",
+      "seeHow": "See how it works"
+    },
+    "how": {
+      "eyebrow": "How it works",
+      "title": "Six calm steps from worry to <i>clarity</i>.",
+      "lead": "Six small steps, each one explained as it happens.",
+      "steps": {
+        "s1": {
+          "title": "Tell Healix how you feel",
+          "body": "Type or speak in Hindi, Marathi, English or a mix. Not sure of the words? Tap the body map and the pain scale instead."
+        },
+        "s2": {
+          "title": "Watch it think, safely",
+          "body": "Danger signs are checked first. Then Healix shows every step it took, so you can see why it suggests a specialist and how soon to go."
+        },
+        "s3": {
+          "title": "Choose a doctor and a time",
+          "body": "Pick the specialty, the date and the time you prefer. Compare doctors near you by fee, language and waiting time, then book in one tap."
+        },
+        "s4": {
+          "title": "Get your token, leave at the right time",
+          "body": "Your digital token shows your place in the queue and why the wait changes. Healix tells you when to leave home, and you can ask the person ahead to swap places."
+        },
+        "s5": {
+          "title": "Make sense of your reports",
+          "body": "Upload a photo or PDF. Healix reads it, you confirm the values, and every result is explained against its usual range, with questions to ask your doctor."
+        },
+        "s6": {
+          "title": "Ask, and share with others",
+          "body": "Ask the report assistant about any word you do not understand, or visit the community to read what others with the same condition are asking."
+        }
+      },
+      "visual": {
+        "stomach": "Stomach",
+        "threeDays": "3 days",
+        "afterMeals": "After meals",
+        "noDanger": "No danger signs found",
+        "points": "Burning after meals points to the stomach",
+        "specialist": "Gastroenterologist",
+        "soon": "Within 2 days",
+        "specialty": "Specialty",
+        "gastro": "Gastroenterology",
+        "date": "Date",
+        "tomorrow": "Tomorrow",
+        "time": "Time",
+        "morning": "Morning",
+        "ticket": "Your token",
+        "leaveIn": "Leave home in 25 min",
+        "aheadOfYou": "5 ahead of you",
+        "hba1c": "HbA1c",
+        "value": "7.1 %",
+        "above": "Above the usual range",
+        "askDoctor": "Ask your doctor",
+        "doctorQuestion": "“Should my diabetes medicine change?”",
+        "chatQuestion": "What does HbA1c mean?",
+        "chatAnswer": "It is your average blood sugar over about three months.",
+        "diabetes": "Diabetes",
+        "heart": "Heart health"
+      }
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "Everything a patient worries about, <i>answered</i>.",
+      "aside": "Built for older and long-term patients, and the family members who look after them.",
+      "assistant": {
+        "label": "Report assistant",
+        "title": "Any doubt about your report, answered in plain words.",
+        "body": "Ask what a test means, what a usual range is, or why a value is marked high. The assistant explains the jargon in your report in simple words. It only answers questions about your report, and nothing else.",
+        "q": "What does HbA1c 7.1% mean?",
+        "a": "HbA1c is your average blood sugar over about three months. 7.1% is above the usual range of 4.0 to 5.6%, so your doctor will want to talk about it.",
+        "q2": "What is a usual range?",
+        "a2": "It is the span of values most healthy people have for that test. A value outside it is not a diagnosis, just a point to discuss with your doctor.",
+        "note": "Only answers questions about your report."
+      },
+      "items": {
+        "symptoms": {
+          "title": "Symptom check",
+          "body": "Say how you feel in your own words. Healix checks danger signs first, shows its reasoning step by step, and points you to the right kind of doctor."
+        },
+        "doctors": {
+          "title": "Find and book a doctor",
+          "body": "Choose a specialty, a date and a time that suits you. See doctors near you with fees, languages and expected waits, and filter the list."
+        },
+        "token": {
+          "title": "Live token and queue",
+          "body": "Get a digital token the moment you book. Watch the queue move, see why the wait changes, and get told when to leave home."
+        },
+        "reports": {
+          "title": "Report reader",
+          "body": "Upload a photo or PDF of a lab report. Healix reads it, you check the values, and every result is explained against its usual range."
+        },
+        "community": {
+          "title": "Community",
+          "body": "Read and share experiences with people who live with the same condition. Join topics like diabetes or heart health, post questions and reply, under a nickname."
+        },
+        "language": {
+          "title": "Your language, your voice",
+          "body": "Hindi, Marathi, English or Hinglish. Speak your symptoms and have answers read aloud."
+        },
+        "family": {
+          "title": "Family profiles",
+          "body": "Add parents or children with their own details. Reports, tokens and bookings stay separate for each person."
+        },
+        "elder": {
+          "title": "Large-text mode",
+          "body": "Bigger text, a simpler home screen and results read aloud, made for older relatives."
+        },
+        "emergency": {
+          "title": "Emergency help",
+          "body": "One press away on this page. Call 102 or 112, find the nearest emergency department and alert the hospital before you arrive."
+        }
+      }
+    },
+    "hospitals": {
+      "eyebrow": "For hospitals",
+      "title": "A calmer <i>waiting</i> room.",
+      "body": "Live queues, predicted waits and doctor availability on one screen, so front desks spend less time answering “how long?”.",
+      "cta": "See the dashboard",
+      "tableTitle": "Live queue · OPD",
+      "live": "Live",
+      "colDoctor": "Doctor",
+      "colNow": "Now",
+      "colWaiting": "Waiting",
+      "colWait": "Predicted wait",
+      "gastro": "Gastro",
+      "cardio": "Cardio",
+      "general": "General"
+    },
+    "nav": {
+      "home": "Healix home",
+      "language": "Language",
+      "emergency": "Emergency",
+      "emergencyLabel": "Emergency help"
+    },
+    "units": {
+      "min": "min"
+    }
+  }
+}

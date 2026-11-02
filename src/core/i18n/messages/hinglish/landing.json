@@ -1,0 +1,149 @@
+{
+  "landing": {
+    "hero": {
+      "title": "Jaaniye kahan jaana hai,<br/>jaane se <i>pehle</i>.",
+      "lead": "Healix ko apni bhasha mein batayein ki aap kaisa mehsoos kar rahe hain. Yeh sahi specialist, nikalne ka sahi samay batata hai aur aapki report aasan shabdon mein samjhata hai.",
+      "placeholder": "Healix ko batayein aap kaisa mehsoos kar rahe hain…",
+      "inputLabel": "Batayein aap kaisa mehsoos kar rahe hain",
+      "submit": "Sahi specialist khojein",
+      "mic": "Bolkar batayein",
+      "tryDemo": "Demo try karein",
+      "seeHow": "Dekhein yeh kaise kaam karta hai"
+    },
+    "how": {
+      "eyebrow": "Yeh kaise kaam karta hai",
+      "title": "Chinta se <i>spashtata</i> tak chhe shaant kadam.",
+      "lead": "Chhe chhote kadam, har ek samjhaya hua.",
+      "steps": {
+        "s1": {
+          "title": "Healix ko batayein aap kaisa mehsoos kar rahe hain",
+          "body": "Hindi, Marathi, English ya mix mein likhein ya bolein. Shabd na milein to body map aur dard ka paimana chhuyein."
+        },
+        "s2": {
+          "title": "Dekhein yeh kaise sochta hai, surakshit tareeke se",
+          "body": "Pehle khatre ke sanket jaanche jaate hain. Phir Healix har kadam dikhata hai, taaki aap samjhein ki specialist kyon suggest hua aur kitni jaldi jaana hai."
+        },
+        "s3": {
+          "title": "Doctor aur samay chunein",
+          "body": "Specialty, tareekh aur pasandida samay chunein. Fee, bhasha aur wait ke hisaab se paas ke doctors ki tulna karein aur ek tap mein book karein."
+        },
+        "s4": {
+          "title": "Token lein, sahi samay par nikalein",
+          "body": "Aapka digital token queue mein aapki jagah aur wait badalne ki wajah dikhata hai. Healix batata hai kab ghar se nikalna hai, aur aap aage wale se jagah badalne ko keh sakte hain."
+        },
+        "s5": {
+          "title": "Apni reports samjhein",
+          "body": "Photo ya PDF upload karein. Healix use padhta hai, aap values pakki karte hain, aur har nateeja saamanya range ke saath samjhaya jaata hai, doctor se poochhne ke sawaalon samet."
+        },
+        "s6": {
+          "title": "Poochhein aur doosron se judein",
+          "body": "Jo shabd samajh na aaye, report assistant se poochhein, ya community mein dekhein ki usi condition wale log kya poochh rahe hain."
+        }
+      },
+      "visual": {
+        "stomach": "Pet",
+        "threeDays": "3 din",
+        "afterMeals": "Khane ke baad",
+        "noDanger": "Khatre ke koi sanket nahi",
+        "points": "Khane ke baad jalan pet ki taraf ishara karti hai",
+        "specialist": "Gastroenterologist",
+        "soon": "2 din ke andar",
+        "specialty": "Specialty",
+        "gastro": "Gastroenterology",
+        "date": "Tareekh",
+        "tomorrow": "Kal",
+        "time": "Samay",
+        "morning": "Subah",
+        "ticket": "Aapka token",
+        "leaveIn": "25 min mein ghar se nikalein",
+        "aheadOfYou": "Aapse aage 5",
+        "hba1c": "HbA1c",
+        "value": "7.1 %",
+        "above": "Saamanya range se upar",
+        "askDoctor": "Doctor se poochhein",
+        "doctorQuestion": "“Kya meri diabetes ki dawai badalni chahiye?”",
+        "chatQuestion": "HbA1c ka kya matlab hai?",
+        "chatAnswer": "Yeh lagbhag teen mahine ki aapki average blood sugar hai.",
+        "diabetes": "Madhumeh",
+        "heart": "Dil ki sehat"
+      }
+    },
+    "features": {
+      "eyebrow": "Features",
+      "title": "Patient ki har chinta, <i>jawab</i> ke saath.",
+      "aside": "Buzurgon aur lambe samay ke patients ke liye, aur unki dekhbhal karne wale parivar ke liye.",
+      "assistant": {
+        "label": "Report assistant",
+        "title": "Report se judi har shanka, aasan shabdon mein jawab.",
+        "body": "Poochhein ki koi jaanch kya batati hai, saamanya range kya hoti hai, ya koi value high kyon dikhayi gayi hai. Assistant aapki report ke mushkil shabd aasan bhasha mein samjhata hai. Woh sirf aapki report ke sawaalon ka jawab deta hai, aur kuch nahi.",
+        "q": "HbA1c 7.1% ka kya matlab hai?",
+        "a": "HbA1c lagbhag teen mahine ki aapki average blood sugar hai. 7.1% saamanya range 4.0 se 5.6% se upar hai, isliye aapke doctor is par baat karna chahenge.",
+        "q2": "Saamanya range kya hoti hai?",
+        "a2": "Yeh us jaanch ke liye zyadatar swasth logon ki values ka daayra hai. Usse bahar ki value diagnosis nahi, sirf doctor se charcha ki baat hai.",
+        "note": "Sirf aapki report ke sawaalon ka jawab deta hai."
+      },
+      "items": {
+        "symptoms": {
+          "title": "Lakshan jaanch",
+          "body": "Apne shabdon mein batayein aap kaisa mehsoos kar rahe hain. Healix pehle khatre ke sanket jaanchta hai, har kadam dikhata hai aur sahi tarah ke doctor tak pahunchata hai."
+        },
+        "doctors": {
+          "title": "Doctor khojein aur book karein",
+          "body": "Specialty, tareekh aur apni suvidha ka samay chunein. Fee, bhasha aur anumaanit wait ke saath paas ke doctors dekhein aur list filter karein."
+        },
+        "token": {
+          "title": "Live token aur queue",
+          "body": "Book karte hi digital token paayein. Queue ko aage badhte dekhein, wait badalne ki wajah jaanein aur ghar se nikalne ka samay paayein."
+        },
+        "reports": {
+          "title": "Report reader",
+          "body": "Lab report ki photo ya PDF upload karein. Healix use padhta hai, aap values jaanchte hain, aur har nateeja saamanya range ke saath samjhaya jaata hai."
+        },
+        "community": {
+          "title": "Community",
+          "body": "Usi condition ke saath jee rahe logon ke anubhav padhein aur share karein. Diabetes ya dil ki sehat jaise vishayon se judein, sawaal poochhein aur jawab dein, upnaam ke saath."
+        },
+        "language": {
+          "title": "Aapki bhasha, aapki awaaz",
+          "body": "Hindi, Marathi, English ya Hinglish. Bolkar lakshan batayein aur jawab padhkar sunein."
+        },
+        "family": {
+          "title": "Parivar ki profiles",
+          "body": "Mata-pita ya bachchon ko unke apne vivaran ke saath jodein. Har vyakti ki reports, tokens aur bookings alag rehti hain."
+        },
+        "elder": {
+          "title": "Bade akshar wala mode",
+          "body": "Bade akshar, saral home screen aur padhkar sunaye gaye nateeje, buzurgon ke liye banaye gaye."
+        },
+        "emergency": {
+          "title": "Emergency madad",
+          "body": "Isi page par ek tap door. 102 ya 112 par call karein, sabse paas ka emergency department khojein aur pahunchne se pehle hospital ko soochit karein."
+        }
+      }
+    },
+    "hospitals": {
+      "eyebrow": "Hospitals ke liye",
+      "title": "Ek shaant <i>waiting</i> room.",
+      "body": "Live queues, predicted waits aur doctors ki availability ek hi screen par, taaki reception par “kitna time lagega?” ka jawab kam dena pade.",
+      "cta": "Dashboard dekhein",
+      "tableTitle": "Live queue · OPD",
+      "live": "Live",
+      "colDoctor": "Doctor",
+      "colNow": "Abhi",
+      "colWaiting": "Wait mein",
+      "colWait": "Andaza wait",
+      "gastro": "Gastro",
+      "cardio": "Cardio",
+      "general": "General"
+    },
+    "nav": {
+      "home": "Healix home",
+      "language": "Bhasha",
+      "emergency": "Emergency",
+      "emergencyLabel": "Emergency madad"
+    },
+    "units": {
+      "min": "min"
+    }
+  }
+}

@@ -1,0 +1,283 @@
+@import "tailwindcss";
+@import "./theme.generated.css";
+
+@layer base {
+  html {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    text-size-adjust: 100%;
+    scroll-behavior: smooth;
+  }
+
+  html[data-elder="true"] {
+    --type-scale: 1.25;
+    font-size: 125%;
+  }
+
+  html[data-elder="true"] body {
+    font-size: calc(16px * var(--type-scale));
+  }
+
+  html[data-elder="true"] [class*="text-[11px]"] {
+    font-size: calc(11px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[12px]"] {
+    font-size: calc(12px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[13px]"] {
+    font-size: calc(13px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[14px]"] {
+    font-size: calc(14px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[15px]"] {
+    font-size: calc(15px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[16px]"] {
+    font-size: calc(16px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[17px]"] {
+    font-size: calc(17px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[18px]"] {
+    font-size: calc(18px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[20px]"] {
+    font-size: calc(20px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[22px]"] {
+    font-size: calc(22px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[24px]"] {
+    font-size: calc(24px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[26px]"] {
+    font-size: calc(26px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[28px]"] {
+    font-size: calc(28px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[32px]"] {
+    font-size: calc(32px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[34px]"] {
+    font-size: calc(34px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[44px]"] {
+    font-size: calc(44px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[56px]"] {
+    font-size: calc(56px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] [class*="text-[72px]"] {
+    font-size: calc(72px * var(--type-scale, 1)) !important;
+  }
+
+  html[data-elder="true"] button,
+  html[data-elder="true"] a[class*="rounded-pill"],
+  html[data-elder="true"] input,
+  html[data-elder="true"] select {
+    min-height: 3.5rem;
+  }
+
+  html[data-elder="true"] p,
+  html[data-elder="true"] li,
+  html[data-elder="true"] dd,
+  html[data-elder="true"] dt {
+    line-height: 1.55;
+  }
+
+  html[lang="hi"],
+  html[lang="mr"] {
+    --devanagari-line-extra: 4px;
+  }
+
+  html[lang="hi"] body,
+  html[lang="mr"] body {
+    font-family: 'Mukta', var(--font-sans);
+  }
+
+  body {
+    min-height: 100vh;
+    background: var(--bg);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--ink-2);
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4 {
+    color: var(--ink);
+    text-wrap: balance;
+  }
+
+  h1 em, h2 em, h3 em,
+  h1 i, h2 i, h3 i {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  button, a, input, textarea, select, [tabindex] {
+    transition-property: color, background-color, border-color, box-shadow, opacity, transform;
+    transition-duration: 200ms;
+    transition-timing-function: var(--ease);
+  }
+
+  :focus-visible {
+    outline: var(--focus-ring-width) solid var(--accent);
+    outline-offset: var(--focus-ring-offset);
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+
+  ::selection {
+    background: var(--accent-soft);
+    color: var(--accent-soft-text);
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *, *::before, *::after {
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.001ms !important;
+    }
+  }
+}
+
+@layer components {
+  .lead-balance {
+    text-wrap: balance;
+  }
+
+  .glow {
+    position: absolute;
+    border-radius: 9999px;
+    filter: blur(80px);
+    pointer-events: none;
+    animation: glow-drift 20s var(--ease) infinite alternate;
+  }
+
+  .orb-breathe {
+    animation: orb-breathe 4s ease-in-out infinite alternate;
+  }
+
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+  }
+}
+
+@layer utilities {
+  html[lang="hi"] [class*="type-"],
+  html[lang="mr"] [class*="type-"] {
+    letter-spacing: 0;
+  }
+}
+
+@layer components {
+  .reveal {
+    opacity: 0;
+    transform: translateY(24px);
+    transition:
+      opacity 700ms var(--ease),
+      transform 700ms var(--ease);
+    transition-delay: var(--reveal-delay, 0ms);
+  }
+
+  .reveal[data-revealed="true"] {
+    opacity: 1;
+    transform: none;
+  }
+
+  .roll-in {
+    animation: roll-in 400ms var(--ease) both;
+  }
+
+  .roll-out {
+    animation: roll-out 400ms var(--ease) both;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .reveal {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+    .roll-in,
+    .roll-out {
+      animation: none;
+    }
+    .roll-out {
+      display: none;
+    }
+  }
+}
+
+@keyframes roll-in {
+  from { transform: translateY(100%); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes roll-out {
+  from { transform: translateY(0); opacity: 1; }
+  to { transform: translateY(-100%); opacity: 0; }
+}
+
+@keyframes trail-in {
+  from { opacity: 0; transform: translateY(8px); }
+  to { opacity: 1; transform: none; }
+}
+
+@keyframes glow-drift {
+  from { transform: translate3d(-24px, -24px, 0); }
+  to { transform: translate3d(24px, 24px, 0); }
+}
+
+@keyframes orb-breathe {
+  from { transform: scale(1); }
+  to { transform: scale(1.04); }
+}
+
+@keyframes alert-in {
+  from { opacity: 0; transform: translateX(48px); }
+  to { opacity: 1; transform: none; }
+}
+
+.alert-in {
+  animation: alert-in 420ms cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .alert-in {
+    animation: none;
+  }
+}

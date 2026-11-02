@@ -1,0 +1,903 @@
+{
+  "anchor_date": "2026-10-19",
+  "days": [
+    {
+      "date": "2026-10-19",
+      "weekday": 1,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 167,
+          "actual_wait": 71.1,
+          "model_prediction": 70.1,
+          "simple_prediction": 61.2
+        },
+        {
+          "hour": 10,
+          "patients": 194,
+          "actual_wait": 63.5,
+          "model_prediction": 64.9,
+          "simple_prediction": 47
+        },
+        {
+          "hour": 11,
+          "patients": 187,
+          "actual_wait": 66.5,
+          "model_prediction": 63.5,
+          "simple_prediction": 44.9
+        },
+        {
+          "hour": 12,
+          "patients": 117,
+          "actual_wait": 48.1,
+          "model_prediction": 52.6,
+          "simple_prediction": 51.5
+        },
+        {
+          "hour": 13,
+          "patients": 55,
+          "actual_wait": 39.5,
+          "model_prediction": 41.4,
+          "simple_prediction": 39.9
+        },
+        {
+          "hour": 14,
+          "patients": 93,
+          "actual_wait": 39.4,
+          "model_prediction": 42.3,
+          "simple_prediction": 42.3
+        },
+        {
+          "hour": 15,
+          "patients": 135,
+          "actual_wait": 47.9,
+          "model_prediction": 47.6,
+          "simple_prediction": 53.3
+        },
+        {
+          "hour": 16,
+          "patients": 100,
+          "actual_wait": 41.1,
+          "model_prediction": 36.8,
+          "simple_prediction": 38.2
+        }
+      ],
+      "model_mae": 2.4,
+      "simple_mae": 7.9
+    },
+    {
+      "date": "2026-10-20",
+      "weekday": 2,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 103,
+          "actual_wait": 52.5,
+          "model_prediction": 44.9,
+          "simple_prediction": 32.8
+        },
+        {
+          "hour": 10,
+          "patients": 144,
+          "actual_wait": 69.3,
+          "model_prediction": 64.8,
+          "simple_prediction": 46.2
+        },
+        {
+          "hour": 11,
+          "patients": 115,
+          "actual_wait": 58.6,
+          "model_prediction": 52.1,
+          "simple_prediction": 35.7
+        },
+        {
+          "hour": 12,
+          "patients": 62,
+          "actual_wait": 37.9,
+          "model_prediction": 35.9,
+          "simple_prediction": 38
+        },
+        {
+          "hour": 13,
+          "patients": 39,
+          "actual_wait": 32.7,
+          "model_prediction": 37.6,
+          "simple_prediction": 37
+        },
+        {
+          "hour": 14,
+          "patients": 71,
+          "actual_wait": 38.6,
+          "model_prediction": 28.6,
+          "simple_prediction": 40.9
+        },
+        {
+          "hour": 15,
+          "patients": 79,
+          "actual_wait": 41.2,
+          "model_prediction": 48,
+          "simple_prediction": 40
+        },
+        {
+          "hour": 16,
+          "patients": 82,
+          "actual_wait": 46.2,
+          "model_prediction": 43.6,
+          "simple_prediction": 47.5
+        }
+      ],
+      "model_mae": 5.6,
+      "simple_mae": 9.4
+    },
+    {
+      "date": "2026-10-21",
+      "weekday": 3,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 101,
+          "actual_wait": 59.3,
+          "model_prediction": 61.4,
+          "simple_prediction": 36.7
+        },
+        {
+          "hour": 10,
+          "patients": 127,
+          "actual_wait": 58.7,
+          "model_prediction": 60.1,
+          "simple_prediction": 39.1
+        },
+        {
+          "hour": 11,
+          "patients": 112,
+          "actual_wait": 57.4,
+          "model_prediction": 55.7,
+          "simple_prediction": 31.4
+        },
+        {
+          "hour": 12,
+          "patients": 69,
+          "actual_wait": 43,
+          "model_prediction": 43.9,
+          "simple_prediction": 42.1
+        },
+        {
+          "hour": 13,
+          "patients": 44,
+          "actual_wait": 29.4,
+          "model_prediction": 26.5,
+          "simple_prediction": 25.2
+        },
+        {
+          "hour": 14,
+          "patients": 57,
+          "actual_wait": 35.4,
+          "model_prediction": 33.2,
+          "simple_prediction": 51.7
+        },
+        {
+          "hour": 15,
+          "patients": 69,
+          "actual_wait": 38.3,
+          "model_prediction": 41.4,
+          "simple_prediction": 39.1
+        },
+        {
+          "hour": 16,
+          "patients": 81,
+          "actual_wait": 37.7,
+          "model_prediction": 35.9,
+          "simple_prediction": 39.1
+        }
+      ],
+      "model_mae": 2,
+      "simple_mae": 11.5
+    },
+    {
+      "date": "2026-10-22",
+      "weekday": 4,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 114,
+          "actual_wait": 50.6,
+          "model_prediction": 49.9,
+          "simple_prediction": 38.2
+        },
+        {
+          "hour": 10,
+          "patients": 115,
+          "actual_wait": 55.4,
+          "model_prediction": 49.5,
+          "simple_prediction": 41.2
+        },
+        {
+          "hour": 11,
+          "patients": 213,
+          "actual_wait": 73.7,
+          "model_prediction": 76,
+          "simple_prediction": 58.5
+        },
+        {
+          "hour": 12,
+          "patients": 63,
+          "actual_wait": 34.4,
+          "model_prediction": 30.1,
+          "simple_prediction": 38.2
+        },
+        {
+          "hour": 13,
+          "patients": 39,
+          "actual_wait": 30.9,
+          "model_prediction": 27.5,
+          "simple_prediction": 30.6
+        },
+        {
+          "hour": 14,
+          "patients": 46,
+          "actual_wait": 32.2,
+          "model_prediction": 35.5,
+          "simple_prediction": 36.3
+        },
+        {
+          "hour": 15,
+          "patients": 72,
+          "actual_wait": 39.3,
+          "model_prediction": 37.2,
+          "simple_prediction": 43.6
+        },
+        {
+          "hour": 16,
+          "patients": 84,
+          "actual_wait": 44.9,
+          "model_prediction": 49.6,
+          "simple_prediction": 44.9
+        }
+      ],
+      "model_mae": 3.3,
+      "simple_mae": 6.8
+    },
+    {
+      "date": "2026-10-23",
+      "weekday": 5,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 85,
+          "actual_wait": 49.8,
+          "model_prediction": 49.2,
+          "simple_prediction": 28.5
+        },
+        {
+          "hour": 10,
+          "patients": 129,
+          "actual_wait": 57.5,
+          "model_prediction": 55.6,
+          "simple_prediction": 39.1
+        },
+        {
+          "hour": 11,
+          "patients": 93,
+          "actual_wait": 45,
+          "model_prediction": 39.9,
+          "simple_prediction": 27.7
+        },
+        {
+          "hour": 12,
+          "patients": 74,
+          "actual_wait": 31.7,
+          "model_prediction": 31.8,
+          "simple_prediction": 35.2
+        },
+        {
+          "hour": 13,
+          "patients": 33,
+          "actual_wait": 31.9,
+          "model_prediction": 33.8,
+          "simple_prediction": 33.5
+        },
+        {
+          "hour": 14,
+          "patients": 63,
+          "actual_wait": 31,
+          "model_prediction": 21.7,
+          "simple_prediction": 34.1
+        },
+        {
+          "hour": 15,
+          "patients": 73,
+          "actual_wait": 41.7,
+          "model_prediction": 40.2,
+          "simple_prediction": 44.8
+        },
+        {
+          "hour": 16,
+          "patients": 62,
+          "actual_wait": 30.5,
+          "model_prediction": 22.3,
+          "simple_prediction": 33
+        }
+      ],
+      "model_mae": 3.6,
+      "simple_mae": 8.9
+    },
+    {
+      "date": "2026-10-24",
+      "weekday": 6,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 106,
+          "actual_wait": 54,
+          "model_prediction": 63.2,
+          "simple_prediction": 34.4
+        },
+        {
+          "hour": 10,
+          "patients": 88,
+          "actual_wait": 52.7,
+          "model_prediction": 48.7,
+          "simple_prediction": 35
+        },
+        {
+          "hour": 11,
+          "patients": 109,
+          "actual_wait": 57,
+          "model_prediction": 47.1,
+          "simple_prediction": 42.3
+        },
+        {
+          "hour": 12,
+          "patients": 46,
+          "actual_wait": 33.8,
+          "model_prediction": 37.9,
+          "simple_prediction": 30.9
+        },
+        {
+          "hour": 13,
+          "patients": 29,
+          "actual_wait": 27.3,
+          "model_prediction": 20.9,
+          "simple_prediction": 34.4
+        },
+        {
+          "hour": 14,
+          "patients": 60,
+          "actual_wait": 31.5,
+          "model_prediction": 30.6,
+          "simple_prediction": 33.6
+        },
+        {
+          "hour": 15,
+          "patients": 79,
+          "actual_wait": 40.5,
+          "model_prediction": 40.3,
+          "simple_prediction": 46.5
+        },
+        {
+          "hour": 16,
+          "patients": 66,
+          "actual_wait": 37,
+          "model_prediction": 38.1,
+          "simple_prediction": 38.9
+        }
+      ],
+      "model_mae": 4.5,
+      "simple_mae": 9
+    },
+    {
+      "date": "2026-10-25",
+      "weekday": 0,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 52,
+          "actual_wait": 41.3,
+          "model_prediction": 42.7,
+          "simple_prediction": 17.8
+        },
+        {
+          "hour": 10,
+          "patients": 56,
+          "actual_wait": 45.4,
+          "model_prediction": 43.7,
+          "simple_prediction": 25.3
+        },
+        {
+          "hour": 11,
+          "patients": 46,
+          "actual_wait": 47.6,
+          "model_prediction": 53.1,
+          "simple_prediction": 22.9
+        },
+        {
+          "hour": 12,
+          "patients": 36,
+          "actual_wait": 29.7,
+          "model_prediction": 24.7,
+          "simple_prediction": 28.4
+        },
+        {
+          "hour": 13,
+          "patients": 24,
+          "actual_wait": 29.9,
+          "model_prediction": 33,
+          "simple_prediction": 30.5
+        },
+        {
+          "hour": 14,
+          "patients": 32,
+          "actual_wait": 28.5,
+          "model_prediction": 28.3,
+          "simple_prediction": 25.9
+        },
+        {
+          "hour": 15,
+          "patients": 33,
+          "actual_wait": 30.1,
+          "model_prediction": 27,
+          "simple_prediction": 33.2
+        },
+        {
+          "hour": 16,
+          "patients": 43,
+          "actual_wait": 32.8,
+          "model_prediction": 34,
+          "simple_prediction": 33.8
+        }
+      ],
+      "model_mae": 2.7,
+      "simple_mae": 9.6
+    },
+    {
+      "date": "2026-10-26",
+      "weekday": 1,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 147,
+          "actual_wait": 65.5,
+          "model_prediction": 64.2,
+          "simple_prediction": 45.8
+        },
+        {
+          "hour": 10,
+          "patients": 162,
+          "actual_wait": 64.8,
+          "model_prediction": 59.1,
+          "simple_prediction": 42.6
+        },
+        {
+          "hour": 11,
+          "patients": 164,
+          "actual_wait": 64.9,
+          "model_prediction": 68.3,
+          "simple_prediction": 47.7
+        },
+        {
+          "hour": 12,
+          "patients": 107,
+          "actual_wait": 44.3,
+          "model_prediction": 41.3,
+          "simple_prediction": 48.9
+        },
+        {
+          "hour": 13,
+          "patients": 66,
+          "actual_wait": 36.3,
+          "model_prediction": 40,
+          "simple_prediction": 39
+        },
+        {
+          "hour": 14,
+          "patients": 84,
+          "actual_wait": 40.2,
+          "model_prediction": 41,
+          "simple_prediction": 44
+        },
+        {
+          "hour": 15,
+          "patients": 130,
+          "actual_wait": 52,
+          "model_prediction": 49.1,
+          "simple_prediction": 49.5
+        },
+        {
+          "hour": 16,
+          "patients": 125,
+          "actual_wait": 49.1,
+          "model_prediction": 46.7,
+          "simple_prediction": 57.5
+        }
+      ],
+      "model_mae": 2.9,
+      "simple_mae": 10.1
+    },
+    {
+      "date": "2026-10-27",
+      "weekday": 2,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 101,
+          "actual_wait": 57.9,
+          "model_prediction": 51.8,
+          "simple_prediction": 34.3
+        },
+        {
+          "hour": 10,
+          "patients": 125,
+          "actual_wait": 56.3,
+          "model_prediction": 62.5,
+          "simple_prediction": 43.8
+        },
+        {
+          "hour": 11,
+          "patients": 114,
+          "actual_wait": 53.5,
+          "model_prediction": 59.3,
+          "simple_prediction": 36.2
+        },
+        {
+          "hour": 12,
+          "patients": 72,
+          "actual_wait": 36,
+          "model_prediction": 37.1,
+          "simple_prediction": 38.2
+        },
+        {
+          "hour": 13,
+          "patients": 37,
+          "actual_wait": 35.6,
+          "model_prediction": 39.2,
+          "simple_prediction": 34.2
+        },
+        {
+          "hour": 14,
+          "patients": 71,
+          "actual_wait": 36,
+          "model_prediction": 34.5,
+          "simple_prediction": 36.9
+        },
+        {
+          "hour": 15,
+          "patients": 97,
+          "actual_wait": 51.7,
+          "model_prediction": 50.1,
+          "simple_prediction": 46.8
+        },
+        {
+          "hour": 16,
+          "patients": 91,
+          "actual_wait": 38.1,
+          "model_prediction": 41.3,
+          "simple_prediction": 39.8
+        }
+      ],
+      "model_mae": 3.6,
+      "simple_mae": 8.1
+    },
+    {
+      "date": "2026-10-28",
+      "weekday": 3,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 100,
+          "actual_wait": 52.2,
+          "model_prediction": 62.4,
+          "simple_prediction": 30.7
+        },
+        {
+          "hour": 10,
+          "patients": 118,
+          "actual_wait": 61.1,
+          "model_prediction": 55.3,
+          "simple_prediction": 38.1
+        },
+        {
+          "hour": 11,
+          "patients": 185,
+          "actual_wait": 72.6,
+          "model_prediction": 64,
+          "simple_prediction": 54.3
+        },
+        {
+          "hour": 12,
+          "patients": 67,
+          "actual_wait": 34.7,
+          "model_prediction": 42.9,
+          "simple_prediction": 34.5
+        },
+        {
+          "hour": 13,
+          "patients": 35,
+          "actual_wait": 29.2,
+          "model_prediction": 28.4,
+          "simple_prediction": 29.7
+        },
+        {
+          "hour": 14,
+          "patients": 71,
+          "actual_wait": 38,
+          "model_prediction": 34.6,
+          "simple_prediction": 43.1
+        },
+        {
+          "hour": 15,
+          "patients": 67,
+          "actual_wait": 34,
+          "model_prediction": 25.5,
+          "simple_prediction": 38.4
+        },
+        {
+          "hour": 16,
+          "patients": 69,
+          "actual_wait": 34.6,
+          "model_prediction": 34.1,
+          "simple_prediction": 34.9
+        }
+      ],
+      "model_mae": 5.7,
+      "simple_mae": 9.2
+    },
+    {
+      "date": "2026-10-29",
+      "weekday": 4,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 117,
+          "actual_wait": 54.9,
+          "model_prediction": 51.5,
+          "simple_prediction": 38.2
+        },
+        {
+          "hour": 10,
+          "patients": 125,
+          "actual_wait": 61.4,
+          "model_prediction": 49.7,
+          "simple_prediction": 50
+        },
+        {
+          "hour": 11,
+          "patients": 126,
+          "actual_wait": 62.6,
+          "model_prediction": 69.8,
+          "simple_prediction": 40.4
+        },
+        {
+          "hour": 12,
+          "patients": 66,
+          "actual_wait": 35.8,
+          "model_prediction": 34.7,
+          "simple_prediction": 37.7
+        },
+        {
+          "hour": 13,
+          "patients": 40,
+          "actual_wait": 33.1,
+          "model_prediction": 33.3,
+          "simple_prediction": 35
+        },
+        {
+          "hour": 14,
+          "patients": 74,
+          "actual_wait": 36.6,
+          "model_prediction": 38.6,
+          "simple_prediction": 35.3
+        },
+        {
+          "hour": 15,
+          "patients": 77,
+          "actual_wait": 44.8,
+          "model_prediction": 36.4,
+          "simple_prediction": 45.1
+        },
+        {
+          "hour": 16,
+          "patients": 76,
+          "actual_wait": 39.2,
+          "model_prediction": 46.5,
+          "simple_prediction": 44.3
+        }
+      ],
+      "model_mae": 5.2,
+      "simple_mae": 7.6
+    },
+    {
+      "date": "2026-10-30",
+      "weekday": 5,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 99,
+          "actual_wait": 52.9,
+          "model_prediction": 57,
+          "simple_prediction": 32.1
+        },
+        {
+          "hour": 10,
+          "patients": 100,
+          "actual_wait": 54.1,
+          "model_prediction": 57.1,
+          "simple_prediction": 33.1
+        },
+        {
+          "hour": 11,
+          "patients": 109,
+          "actual_wait": 55,
+          "model_prediction": 61.1,
+          "simple_prediction": 37.6
+        },
+        {
+          "hour": 12,
+          "patients": 64,
+          "actual_wait": 37.8,
+          "model_prediction": 41.2,
+          "simple_prediction": 34.8
+        },
+        {
+          "hour": 13,
+          "patients": 46,
+          "actual_wait": 33.2,
+          "model_prediction": 42.4,
+          "simple_prediction": 34.5
+        },
+        {
+          "hour": 14,
+          "patients": 66,
+          "actual_wait": 36.4,
+          "model_prediction": 30.7,
+          "simple_prediction": 41.7
+        },
+        {
+          "hour": 15,
+          "patients": 74,
+          "actual_wait": 37.5,
+          "model_prediction": 44,
+          "simple_prediction": 39.6
+        },
+        {
+          "hour": 16,
+          "patients": 75,
+          "actual_wait": 45.2,
+          "model_prediction": 43.9,
+          "simple_prediction": 50.5
+        }
+      ],
+      "model_mae": 4.9,
+      "simple_mae": 9.5
+    },
+    {
+      "date": "2026-10-31",
+      "weekday": 6,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 95,
+          "actual_wait": 52.6,
+          "model_prediction": 54,
+          "simple_prediction": 27.7
+        },
+        {
+          "hour": 10,
+          "patients": 101,
+          "actual_wait": 52.5,
+          "model_prediction": 38.3,
+          "simple_prediction": 30.2
+        },
+        {
+          "hour": 11,
+          "patients": 97,
+          "actual_wait": 51.9,
+          "model_prediction": 58.5,
+          "simple_prediction": 38.2
+        },
+        {
+          "hour": 12,
+          "patients": 54,
+          "actual_wait": 38.5,
+          "model_prediction": 36.9,
+          "simple_prediction": 43
+        },
+        {
+          "hour": 13,
+          "patients": 40,
+          "actual_wait": 37.2,
+          "model_prediction": 40.3,
+          "simple_prediction": 41
+        },
+        {
+          "hour": 14,
+          "patients": 49,
+          "actual_wait": 38.8,
+          "model_prediction": 41.9,
+          "simple_prediction": 45.2
+        },
+        {
+          "hour": 15,
+          "patients": 77,
+          "actual_wait": 46.2,
+          "model_prediction": 45.6,
+          "simple_prediction": 45.2
+        },
+        {
+          "hour": 16,
+          "patients": 45,
+          "actual_wait": 35.8,
+          "model_prediction": 25.2,
+          "simple_prediction": 39
+        }
+      ],
+      "model_mae": 5.2,
+      "simple_mae": 10
+    },
+    {
+      "date": "2026-11-01",
+      "weekday": 0,
+      "hours": [
+        {
+          "hour": 9,
+          "patients": 55,
+          "actual_wait": 44.9,
+          "model_prediction": 49.3,
+          "simple_prediction": 25.6
+        },
+        {
+          "hour": 10,
+          "patients": 60,
+          "actual_wait": 42,
+          "model_prediction": 37.7,
+          "simple_prediction": 26.2
+        },
+        {
+          "hour": 11,
+          "patients": 61,
+          "actual_wait": 47.5,
+          "model_prediction": 53.7,
+          "simple_prediction": 25.3
+        },
+        {
+          "hour": 12,
+          "patients": 36,
+          "actual_wait": 30.2,
+          "model_prediction": 28.9,
+          "simple_prediction": 34.2
+        },
+        {
+          "hour": 13,
+          "patients": 18,
+          "actual_wait": 26.5,
+          "model_prediction": 25.2,
+          "simple_prediction": 25.1
+        },
+        {
+          "hour": 14,
+          "patients": 34,
+          "actual_wait": 27.5,
+          "model_prediction": 28.7,
+          "simple_prediction": 30.7
+        },
+        {
+          "hour": 15,
+          "patients": 46,
+          "actual_wait": 34.3,
+          "model_prediction": 32,
+          "simple_prediction": 35.6
+        },
+        {
+          "hour": 16,
+          "patients": 34,
+          "actual_wait": 31.6,
+          "model_prediction": 30,
+          "simple_prediction": 32.9
+        }
+      ],
+      "model_mae": 2.8,
+      "simple_mae": 8.6
+    }
+  ],
+  "model_mae": 3.9,
+  "simple_mae": 9
+}

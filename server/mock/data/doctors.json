@@ -1,0 +1,4418 @@
+[
+  {
+    "id": "doc_meera",
+    "name": "Dr. Meera Kulkarni",
+    "specialty": "Gastroenterology",
+    "qualifications": "MBBS, MD, DM (Gastroenterology)",
+    "years_experience": 16,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 700,
+    "rating": 4.8,
+    "review_count": 412,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 7.8,
+    "popularity": 1.3,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "A",
+    "room": "Room 4",
+    "about": "Sixteen years in digestive and liver care at Karve Road. Sees many first-time endoscopy patients and is known for explaining each step before it happens. Special interest in acidity and reflux, liver health and irritable bowel.",
+    "focus": [
+      "acidity and reflux",
+      "liver health",
+      "irritable bowel"
+    ]
+  },
+  {
+    "id": "doc_arjun",
+    "name": "Dr. Arjun Rao",
+    "specialty": "Cardiology",
+    "qualifications": "MBBS, MD, DM (Cardiology)",
+    "years_experience": 21,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Telugu",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1100,
+    "rating": 4.7,
+    "review_count": 530,
+    "consult_minutes": 15,
+    "observed_consult_minutes": 4.7,
+    "popularity": 1.3,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "C",
+    "room": "Room 2",
+    "about": "Twenty-one years in heart care, with long follow-up relationships after stents and rhythm treatment. Prefers a thorough first visit with echo and a written plan. Special interest in after-stent care, heart failure and blood pressure.",
+    "focus": [
+      "after-stent care",
+      "heart failure follow-up",
+      "blood pressure and cholesterol"
+    ]
+  },
+  {
+    "id": "doc_fatima",
+    "name": "Dr. Fatima Shaikh",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 14,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Urdu",
+      "Hindi",
+      "Marathi",
+      "English"
+    ],
+    "fee_inr": 400,
+    "rating": 4.6,
+    "review_count": 905,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 4.4,
+    "popularity": 1.3,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "G",
+    "room": "Room 1",
+    "about": "Fourteen years as a family physician with a large walk-in following. Quick, practical visits for fevers and everyday illness, with careful reviews for long-term conditions. Special interest in diabetes follow-up, elder health and seasonal fevers.",
+    "focus": [
+      "diabetes follow-up",
+      "elder health reviews",
+      "seasonal fevers"
+    ]
+  },
+  {
+    "id": "doc_001",
+    "name": "Dr. Jaspreet Gill",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 34,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 350,
+    "rating": 4.4,
+    "review_count": 732,
+    "consult_minutes": 8,
+    "observed_consult_minutes": 8.5,
+    "popularity": 1.09,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "P",
+    "room": "Room 2",
+    "about": "With 34 years behind them, they consult at Baner Hills Medical Centre. Special interest in fatigue and weakness and seasonal fevers. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "fatigue and weakness",
+      "seasonal fevers"
+    ]
+  },
+  {
+    "id": "doc_002",
+    "name": "Dr. Harpreet Bedi",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 29,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 390,
+    "rating": 4.7,
+    "review_count": 13,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 6.1,
+    "popularity": 0.78,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 10",
+    "about": "A 29-year career, most recently at Karve Road Care Clinic. Special interest in diabetes follow-up, preventive health packages and seasonal fevers. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "diabetes follow-up",
+      "preventive health packages",
+      "seasonal fevers"
+    ]
+  },
+  {
+    "id": "doc_003",
+    "name": "Dr. Sameer Qureshi",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 31,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Urdu",
+      "Hindi",
+      "English",
+      "Marathi"
+    ],
+    "fee_inr": 410,
+    "rating": 3.8,
+    "review_count": 614,
+    "consult_minutes": 11,
+    "observed_consult_minutes": 8.7,
+    "popularity": 0.87,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "G",
+    "room": "Room 4",
+    "about": "Karve Road Care Clinic is home to this doctor's clinic, built on 31 years of experience. Special interest in diabetes follow-up and seasonal fevers. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "diabetes follow-up",
+      "seasonal fevers"
+    ]
+  },
+  {
+    "id": "doc_004",
+    "name": "Dr. Jignesh Patel",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 33,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "Gujarati",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 370,
+    "rating": 3.7,
+    "review_count": 529,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 7.4,
+    "popularity": 0.6,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "L",
+    "room": "Room 12",
+    "about": "Practising for 33 years and now seeing patients at Deccan Shivaji Polyclinic. Special interest in seasonal fevers, fatigue and weakness and elder health reviews. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "seasonal fevers",
+      "fatigue and weakness",
+      "elder health reviews"
+    ]
+  },
+  {
+    "id": "doc_005",
+    "name": "Dr. Deepa Pillai",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 23,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 480,
+    "rating": 3.9,
+    "review_count": 148,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 15.1,
+    "popularity": 0.74,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Y",
+    "room": "Room 4",
+    "about": "With 23 years behind them, they consult at Baner Hills Medical Centre. Special interest in preventive health packages and fatigue and weakness. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "preventive health packages",
+      "fatigue and weakness"
+    ]
+  },
+  {
+    "id": "doc_006",
+    "name": "Dr. Ananya Banerjee",
+    "specialty": "General Physician",
+    "qualifications": "MBBS",
+    "years_experience": 4,
+    "hospital_id": "hosp_hadapsar",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 540,
+    "rating": null,
+    "review_count": 0,
+    "consult_minutes": 8,
+    "observed_consult_minutes": 6.2,
+    "popularity": 0.69,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "T",
+    "room": "Room 5",
+    "about": "Recently joined Hadapsar Riverside Hospital and building a practice. Special interest in preventive health packages, elder health reviews and blood pressure care. Focuses on lifestyle changes that fit a patient's daily routine.",
+    "focus": [
+      "preventive health packages",
+      "elder health reviews",
+      "blood pressure care"
+    ]
+  },
+  {
+    "id": "doc_007",
+    "name": "Dr. Harpreet Gill",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 6,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 380,
+    "rating": 3.8,
+    "review_count": 294,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 11,
+    "popularity": 0.61,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 7",
+    "about": "Practising for 6 years and now seeing patients at Karve Road Care Clinic. Special interest in fatigue and weakness and diabetes follow-up. Takes extra time with first-time patients and elders.",
+    "focus": [
+      "fatigue and weakness",
+      "diabetes follow-up"
+    ]
+  },
+  {
+    "id": "doc_008",
+    "name": "Dr. Raghav Bhat",
+    "specialty": "General Physician",
+    "qualifications": "MBBS",
+    "years_experience": 16,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 340,
+    "rating": 4.4,
+    "review_count": 117,
+    "consult_minutes": 11,
+    "observed_consult_minutes": 7.3,
+    "popularity": 0.63,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": true,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 5",
+    "about": "Practising for 16 years and now seeing patients at Baner Hills Medical Centre. Special interest in fatigue and weakness, thyroid checks and elder health reviews. Known for explaining results in plain words and writing the plan down.",
+    "focus": [
+      "fatigue and weakness",
+      "thyroid checks",
+      "elder health reviews"
+    ]
+  },
+  {
+    "id": "doc_009",
+    "name": "Dr. Arjun Reddy",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 9,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Telugu",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 520,
+    "rating": 4.3,
+    "review_count": 649,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 15.8,
+    "popularity": 1.35,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "W",
+    "room": "Room 1",
+    "about": "Practising for 9 years and now seeing patients at Baner Hills Medical Centre. Special interest in elder health reviews, diabetes follow-up and thyroid checks. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "elder health reviews",
+      "diabetes follow-up",
+      "thyroid checks"
+    ]
+  },
+  {
+    "id": "doc_010",
+    "name": "Dr. Arvind Krishnan",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 30,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 360,
+    "rating": 4.7,
+    "review_count": 619,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 11.4,
+    "popularity": 0.66,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "A",
+    "room": "Room 1",
+    "about": "With 30 years behind them, they consult at Karve Road Care Clinic. Special interest in thyroid checks, diabetes follow-up and seasonal fevers. Takes extra time with first-time patients and elders.",
+    "focus": [
+      "thyroid checks",
+      "diabetes follow-up",
+      "seasonal fevers"
+    ]
+  },
+  {
+    "id": "doc_011",
+    "name": "Dr. Ganesh Shetty",
+    "specialty": "General Physician",
+    "qualifications": "MBBS, MD (Medicine)",
+    "years_experience": 10,
+    "hospital_id": "hosp_viman",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 330,
+    "rating": 4.6,
+    "review_count": 400,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 11.8,
+    "popularity": 0.84,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "S",
+    "room": "Room 5",
+    "about": "With 10 years behind them, they consult at Viman Nagar Orchid Clinic. Special interest in blood pressure care and elder health reviews. Takes extra time with first-time patients and elders.",
+    "focus": [
+      "blood pressure care",
+      "elder health reviews"
+    ]
+  },
+  {
+    "id": "doc_012",
+    "name": "Dr. Swati Patil",
+    "specialty": "Cardiology",
+    "qualifications": "MBBS, MD, DM (Cardiology)",
+    "years_experience": 24,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 1430,
+    "rating": 4.8,
+    "review_count": 187,
+    "consult_minutes": 16,
+    "observed_consult_minutes": 11.9,
+    "popularity": 1.34,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "P",
+    "room": "Room 12",
+    "about": "Deccan Shivaji Polyclinic is home to this doctor's clinic, built on 24 years of experience. Special interest in blood pressure and cholesterol, rhythm problems and heart failure follow-up. Takes extra time with first-time patients and elders.",
+    "focus": [
+      "blood pressure and cholesterol",
+      "rhythm problems",
+      "heart failure follow-up"
+    ]
+  },
+  {
+    "id": "doc_013",
+    "name": "Dr. Anitha Krishnan",
+    "specialty": "Cardiology",
+    "qualifications": "MBBS, MD, DM (Cardiology)",
+    "years_experience": 15,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1330,
+    "rating": 4.9,
+    "review_count": 44,
+    "consult_minutes": 19,
+    "observed_consult_minutes": 22.5,
+    "popularity": 1.09,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "R",
+    "room": "Room 4",
+    "about": "Practising for 15 years and now seeing patients at Baner Hills Medical Centre. Special interest in preventive cardiology, chest discomfort assessment and heart failure follow-up. Known for a calm, step-by-step way of talking through options.",
+    "focus": [
+      "preventive cardiology",
+      "chest discomfort assessment",
+      "heart failure follow-up"
+    ]
+  },
+  {
+    "id": "doc_014",
+    "name": "Dr. Omkar Deshmukh",
+    "specialty": "Cardiology",
+    "qualifications": "MBBS, MD, DM (Cardiology)",
+    "years_experience": 34,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 910,
+    "rating": 4.9,
+    "review_count": 261,
+    "consult_minutes": 20,
+    "observed_consult_minutes": 12.7,
+    "popularity": 0.97,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "K",
+    "room": "Room 4",
+    "about": "Practising for 34 years and now seeing patients at Aundh Greenleaf Hospital. Special interest in rhythm problems, heart failure follow-up and after-stent care. Often sees patients who travel from nearby towns and plans follow-ups to save trips.",
+    "focus": [
+      "rhythm problems",
+      "heart failure follow-up",
+      "after-stent care"
+    ]
+  },
+  {
+    "id": "doc_015",
+    "name": "Dr. Raghav Gowda",
+    "specialty": "Cardiology",
+    "qualifications": "MBBS, MD, DM (Cardiology)",
+    "years_experience": 26,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1200,
+    "rating": 4.1,
+    "review_count": 629,
+    "consult_minutes": 13,
+    "observed_consult_minutes": 11.5,
+    "popularity": 1.39,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "B",
+    "room": "Room 2",
+    "about": "Practising for 26 years and now seeing patients at Baner Hills Medical Centre. Special interest in heart failure follow-up, rhythm problems and preventive cardiology. Known for a calm, step-by-step way of talking through options.",
+    "focus": [
+      "heart failure follow-up",
+      "rhythm problems",
+      "preventive cardiology"
+    ]
+  },
+  {
+    "id": "doc_016",
+    "name": "Dr. Rajesh Pillai",
+    "specialty": "Pulmonology",
+    "qualifications": "MBBS, MD (Pulmonary Medicine)",
+    "years_experience": 25,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 610,
+    "rating": 4.4,
+    "review_count": 230,
+    "consult_minutes": 15,
+    "observed_consult_minutes": 16.2,
+    "popularity": 1,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "D",
+    "room": "Room 3",
+    "about": "With 25 years behind them, they consult at Karve Road Care Clinic. Special interest in breathing tests and COPD care. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "breathing tests",
+      "COPD care"
+    ]
+  },
+  {
+    "id": "doc_017",
+    "name": "Dr. Chinmay Shinde",
+    "specialty": "Pulmonology",
+    "qualifications": "MBBS, MD (Pulmonary Medicine)",
+    "years_experience": 16,
+    "hospital_id": "hosp_viman",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 920,
+    "rating": 3.9,
+    "review_count": 63,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 10.5,
+    "popularity": 0.9,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "D",
+    "room": "Room 9",
+    "about": "Practising for 16 years and now seeing patients at Viman Nagar Orchid Clinic. Special interest in asthma and allergy, chronic cough and COPD care. Regularly runs awareness sessions for the neighbourhood.",
+    "focus": [
+      "asthma and allergy",
+      "chronic cough",
+      "COPD care"
+    ]
+  },
+  {
+    "id": "doc_018",
+    "name": "Dr. Pavithra Bhat",
+    "specialty": "Pulmonology",
+    "qualifications": "MBBS, MD (Pulmonary Medicine)",
+    "years_experience": 13,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 690,
+    "rating": 4.2,
+    "review_count": 339,
+    "consult_minutes": 9,
+    "observed_consult_minutes": 9.9,
+    "popularity": 0.92,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "W",
+    "room": "Room 4",
+    "about": "Deccan Shivaji Polyclinic is home to this doctor's clinic, built on 13 years of experience. Special interest in asthma and allergy and post-infection recovery. Regularly runs awareness sessions for the neighbourhood.",
+    "focus": [
+      "asthma and allergy",
+      "post-infection recovery"
+    ]
+  },
+  {
+    "id": "doc_019",
+    "name": "Dr. Vikram Agarwal",
+    "specialty": "Pulmonology",
+    "qualifications": "MBBS, MD (Pulmonary Medicine)",
+    "years_experience": 4,
+    "hospital_id": "hosp_viman",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 840,
+    "rating": null,
+    "review_count": 0,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 8.6,
+    "popularity": 1.03,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "F",
+    "room": "Room 7",
+    "about": "Recently joined Viman Nagar Orchid Clinic and building a practice. Special interest in asthma and allergy and sleep apnoea. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "asthma and allergy",
+      "sleep apnoea"
+    ]
+  },
+  {
+    "id": "doc_020",
+    "name": "Dr. Tanushree Banerjee",
+    "specialty": "Gastroenterology",
+    "qualifications": "MBBS, MD, DM (Gastroenterology)",
+    "years_experience": 5,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 930,
+    "rating": 4.9,
+    "review_count": 288,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 12.1,
+    "popularity": 1.02,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Y",
+    "room": "Room 8",
+    "about": "With 5 years behind them, they consult at Aundh Greenleaf Hospital. Special interest in irritable bowel, acidity and reflux and gluten and food intolerance. Focuses on lifestyle changes that fit a patient's daily routine.",
+    "focus": [
+      "irritable bowel",
+      "acidity and reflux",
+      "gluten and food intolerance"
+    ]
+  },
+  {
+    "id": "doc_021",
+    "name": "Dr. Nazia Shaikh",
+    "specialty": "Gastroenterology",
+    "qualifications": "MBBS, MD, DM (Gastroenterology)",
+    "years_experience": 22,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Urdu",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 810,
+    "rating": 4.8,
+    "review_count": 155,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 10.4,
+    "popularity": 1.04,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 10",
+    "about": "A 22-year career, most recently at Baner Hills Medical Centre. Special interest in irritable bowel and endoscopy. Known for explaining results in plain words and writing the plan down.",
+    "focus": [
+      "irritable bowel",
+      "endoscopy"
+    ]
+  },
+  {
+    "id": "doc_022",
+    "name": "Dr. Lakshmi Reddy",
+    "specialty": "Gastroenterology",
+    "qualifications": "MBBS, MD, DM (Gastroenterology)",
+    "years_experience": 33,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Telugu",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 970,
+    "rating": 4.2,
+    "review_count": 441,
+    "consult_minutes": 16,
+    "observed_consult_minutes": 14.9,
+    "popularity": 1.09,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "F",
+    "room": "Room 4",
+    "about": "With 33 years behind them, they consult at Aundh Greenleaf Hospital. Special interest in endoscopy and irritable bowel. Takes extra time with first-time patients and elders.",
+    "focus": [
+      "endoscopy",
+      "irritable bowel"
+    ]
+  },
+  {
+    "id": "doc_023",
+    "name": "Dr. Ananya Sen",
+    "specialty": "Gastroenterology",
+    "qualifications": "MBBS, MD, DM (Gastroenterology)",
+    "years_experience": 30,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1010,
+    "rating": 3.6,
+    "review_count": 755,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 11.6,
+    "popularity": 1.33,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "R",
+    "room": "Room 4",
+    "about": "Baner Hills Medical Centre is home to this doctor's clinic, built on 30 years of experience. Special interest in irritable bowel, endoscopy and gluten and food intolerance. Known for a calm, step-by-step way of talking through options.",
+    "focus": [
+      "irritable bowel",
+      "endoscopy",
+      "gluten and food intolerance"
+    ]
+  },
+  {
+    "id": "doc_024",
+    "name": "Dr. Shruti Gowda",
+    "specialty": "Neurology",
+    "qualifications": "MBBS, MD, DM (Neurology)",
+    "years_experience": 16,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1070,
+    "rating": 4.2,
+    "review_count": 260,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 15.3,
+    "popularity": 0.84,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": true,
+    "booking_mode": "pessimistic",
+    "token_prefix": "K",
+    "room": "Room 12",
+    "about": "With 16 years behind them, they consult at Baner Hills Medical Centre. Special interest in epilepsy care and memory concerns. Keeps visits unhurried and encourages families to bring questions.",
+    "focus": [
+      "epilepsy care",
+      "memory concerns"
+    ]
+  },
+  {
+    "id": "doc_025",
+    "name": "Dr. Tanushree Sen",
+    "specialty": "Neurology",
+    "qualifications": "MBBS, MD, DM (Neurology)",
+    "years_experience": 24,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1310,
+    "rating": 4.4,
+    "review_count": 115,
+    "consult_minutes": 16,
+    "observed_consult_minutes": 17,
+    "popularity": 1.22,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "H",
+    "room": "Room 8",
+    "about": "A 24-year career, most recently at Deccan Shivaji Polyclinic. Special interest in migraine and headache and epilepsy care. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "migraine and headache",
+      "epilepsy care"
+    ]
+  },
+  {
+    "id": "doc_026",
+    "name": "Dr. Sunita Yadav",
+    "specialty": "Neurology",
+    "qualifications": "MBBS, MD, DM (Neurology)",
+    "years_experience": 25,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Hindi",
+      "English",
+      "Marathi"
+    ],
+    "fee_inr": 1240,
+    "rating": 3.9,
+    "review_count": 411,
+    "consult_minutes": 16,
+    "observed_consult_minutes": 13,
+    "popularity": 1.04,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "J",
+    "room": "Room 8",
+    "about": "A 25-year career, most recently at Baner Hills Medical Centre. Special interest in nerve pain, stroke recovery and migraine and headache. Keeps visits unhurried and encourages families to bring questions.",
+    "focus": [
+      "nerve pain",
+      "stroke recovery",
+      "migraine and headache"
+    ]
+  },
+  {
+    "id": "doc_027",
+    "name": "Dr. Ananya Chatterjee",
+    "specialty": "Neurology",
+    "qualifications": "MBBS, MD, DM (Neurology)",
+    "years_experience": 34,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1050,
+    "rating": 4.3,
+    "review_count": 336,
+    "consult_minutes": 17,
+    "observed_consult_minutes": 12,
+    "popularity": 1.31,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 4",
+    "about": "With 34 years behind them, they consult at Baner Hills Medical Centre. Special interest in nerve pain, memory concerns and stroke recovery. Often sees patients who travel from nearby towns and plans follow-ups to save trips.",
+    "focus": [
+      "nerve pain",
+      "memory concerns",
+      "stroke recovery"
+    ]
+  },
+  {
+    "id": "doc_028",
+    "name": "Dr. Sunita Gupta",
+    "specialty": "Orthopedics",
+    "qualifications": "MBBS, MS (Orthopaedics)",
+    "years_experience": 25,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 900,
+    "rating": 3.9,
+    "review_count": 243,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 14.2,
+    "popularity": 0.77,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 7",
+    "about": "Karve Road Care Clinic is home to this doctor's clinic, built on 25 years of experience. Special interest in back and neck pain and fracture care. Regularly runs awareness sessions for the neighbourhood.",
+    "focus": [
+      "back and neck pain",
+      "fracture care"
+    ]
+  },
+  {
+    "id": "doc_029",
+    "name": "Dr. Srinivas Rao",
+    "specialty": "Orthopedics",
+    "qualifications": "MBBS, MS (Orthopaedics)",
+    "years_experience": 33,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Telugu",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 790,
+    "rating": 4.7,
+    "review_count": 153,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 16.4,
+    "popularity": 1.17,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "P",
+    "room": "Room 4",
+    "about": "A 33-year career, most recently at Aundh Greenleaf Hospital. Special interest in back and neck pain, shoulder problems and sports injuries. Regularly runs awareness sessions for the neighbourhood.",
+    "focus": [
+      "back and neck pain",
+      "shoulder problems",
+      "sports injuries"
+    ]
+  },
+  {
+    "id": "doc_030",
+    "name": "Dr. Pooja Gokhale",
+    "specialty": "Orthopedics",
+    "qualifications": "MBBS, MS (Orthopaedics)",
+    "years_experience": 35,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 860,
+    "rating": 3.7,
+    "review_count": 132,
+    "consult_minutes": 13,
+    "observed_consult_minutes": 13.4,
+    "popularity": 0.99,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "X",
+    "room": "Room 8",
+    "about": "Aundh Greenleaf Hospital is home to this doctor's clinic, built on 35 years of experience. Special interest in back and neck pain, fracture care and knee and hip pain. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "back and neck pain",
+      "fracture care",
+      "knee and hip pain"
+    ]
+  },
+  {
+    "id": "doc_031",
+    "name": "Dr. Gurdeep Gill",
+    "specialty": "Orthopedics",
+    "qualifications": "MBBS, MS (Orthopaedics)",
+    "years_experience": 30,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 1030,
+    "rating": 3.8,
+    "review_count": 351,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 14.1,
+    "popularity": 0.72,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Y",
+    "room": "Room 6",
+    "about": "A 30-year career, most recently at Aundh Greenleaf Hospital. Special interest in back and neck pain, fracture care and joint replacement review. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "back and neck pain",
+      "fracture care",
+      "joint replacement review"
+    ]
+  },
+  {
+    "id": "doc_032",
+    "name": "Dr. Pavithra Shetty",
+    "specialty": "Orthopedics",
+    "qualifications": "MBBS, MS (Orthopaedics)",
+    "years_experience": 4,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 620,
+    "rating": null,
+    "review_count": 0,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 14.3,
+    "popularity": 0.78,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 2",
+    "about": "Recently joined Deccan Shivaji Polyclinic and building a practice. Special interest in back and neck pain, knee and hip pain and sports injuries. Known for a calm, step-by-step way of talking through options.",
+    "focus": [
+      "back and neck pain",
+      "knee and hip pain",
+      "sports injuries"
+    ]
+  },
+  {
+    "id": "doc_033",
+    "name": "Dr. Shruti Bhat",
+    "specialty": "Orthopedics",
+    "qualifications": "MBBS, MS (Orthopaedics)",
+    "years_experience": 32,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 820,
+    "rating": 4.2,
+    "review_count": 668,
+    "consult_minutes": 15,
+    "observed_consult_minutes": 9.8,
+    "popularity": 1.28,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "T",
+    "room": "Room 2",
+    "about": "With 32 years behind them, they consult at Karve Road Care Clinic. Special interest in back and neck pain, joint replacement review and fracture care. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "back and neck pain",
+      "joint replacement review",
+      "fracture care"
+    ]
+  },
+  {
+    "id": "doc_034",
+    "name": "Dr. Jaspreet Bedi",
+    "specialty": "Dermatology",
+    "qualifications": "MBBS, MD (Dermatology)",
+    "years_experience": 11,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 870,
+    "rating": 4.6,
+    "review_count": 367,
+    "consult_minutes": 9,
+    "observed_consult_minutes": 9.5,
+    "popularity": 1.35,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "pessimistic",
+    "token_prefix": "L",
+    "room": "Room 3",
+    "about": "A 11-year career, most recently at Deccan Shivaji Polyclinic. Special interest in hair fall, pigmentation and fungal infections. Focuses on lifestyle changes that fit a patient's daily routine.",
+    "focus": [
+      "hair fall",
+      "pigmentation",
+      "fungal infections"
+    ]
+  },
+  {
+    "id": "doc_035",
+    "name": "Dr. Hiral Desai",
+    "specialty": "Dermatology",
+    "qualifications": "MBBS, MD (Dermatology)",
+    "years_experience": 27,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "Gujarati",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 530,
+    "rating": 4.4,
+    "review_count": 97,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 11.1,
+    "popularity": 1.31,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "C",
+    "room": "Room 12",
+    "about": "With 27 years behind them, they consult at Deccan Shivaji Polyclinic. Special interest in eczema and rashes, fungal infections and pigmentation. Focuses on lifestyle changes that fit a patient's daily routine.",
+    "focus": [
+      "eczema and rashes",
+      "fungal infections",
+      "pigmentation"
+    ]
+  },
+  {
+    "id": "doc_036",
+    "name": "Dr. Chinmay Kulkarni",
+    "specialty": "Dermatology",
+    "qualifications": "MBBS, MD (Dermatology)",
+    "years_experience": 11,
+    "hospital_id": "hosp_hadapsar",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 830,
+    "rating": 3.6,
+    "review_count": 783,
+    "consult_minutes": 11,
+    "observed_consult_minutes": 12.9,
+    "popularity": 0.97,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "F",
+    "room": "Room 6",
+    "about": "Practising for 11 years and now seeing patients at Hadapsar Riverside Hospital. Special interest in acne and scars, allergic skin reactions and hair fall. Known for explaining results in plain words and writing the plan down.",
+    "focus": [
+      "acne and scars",
+      "allergic skin reactions",
+      "hair fall"
+    ]
+  },
+  {
+    "id": "doc_037",
+    "name": "Dr. Jaspreet Kaur",
+    "specialty": "Dermatology",
+    "qualifications": "MBBS, MD (Dermatology)",
+    "years_experience": 12,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 510,
+    "rating": 4.1,
+    "review_count": 437,
+    "consult_minutes": 8,
+    "observed_consult_minutes": 6.3,
+    "popularity": 1.11,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "T",
+    "room": "Room 12",
+    "about": "Practising for 12 years and now seeing patients at Aundh Greenleaf Hospital. Special interest in pigmentation and acne and scars. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "pigmentation",
+      "acne and scars"
+    ]
+  },
+  {
+    "id": "doc_038",
+    "name": "Dr. Kavya Menon",
+    "specialty": "Dermatology",
+    "qualifications": "MBBS, MD (Dermatology)",
+    "years_experience": 17,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 730,
+    "rating": 4,
+    "review_count": 138,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 6.4,
+    "popularity": 0.88,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "E",
+    "room": "Room 3",
+    "about": "With 17 years behind them, they consult at Baner Hills Medical Centre. Special interest in hair fall, acne and scars and pigmentation. Focuses on lifestyle changes that fit a patient's daily routine.",
+    "focus": [
+      "hair fall",
+      "acne and scars",
+      "pigmentation"
+    ]
+  },
+  {
+    "id": "doc_039",
+    "name": "Dr. Sneha Joshi",
+    "specialty": "Dermatology",
+    "qualifications": "MBBS, MD (Dermatology)",
+    "years_experience": 25,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 760,
+    "rating": 4.8,
+    "review_count": 183,
+    "consult_minutes": 8,
+    "observed_consult_minutes": 9.3,
+    "popularity": 0.89,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "U",
+    "room": "Room 5",
+    "about": "With 25 years behind them, they consult at Aundh Greenleaf Hospital. Special interest in fungal infections, allergic skin reactions and hair fall. Often sees patients who travel from nearby towns and plans follow-ups to save trips.",
+    "focus": [
+      "fungal infections",
+      "allergic skin reactions",
+      "hair fall"
+    ]
+  },
+  {
+    "id": "doc_040",
+    "name": "Dr. Farhan Khan",
+    "specialty": "ENT",
+    "qualifications": "MBBS, MS (ENT)",
+    "years_experience": 11,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "Urdu",
+      "Hindi",
+      "English",
+      "Marathi"
+    ],
+    "fee_inr": 850,
+    "rating": 4.8,
+    "review_count": 113,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 15.2,
+    "popularity": 0.94,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": true,
+    "booking_mode": "optimistic",
+    "token_prefix": "P",
+    "room": "Room 5",
+    "about": "Practising for 11 years and now seeing patients at Deccan Shivaji Polyclinic. Special interest in ear infections, sinus trouble and throat and voice. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "ear infections",
+      "sinus trouble",
+      "throat and voice"
+    ]
+  },
+  {
+    "id": "doc_041",
+    "name": "Dr. Jignesh Mehta",
+    "specialty": "ENT",
+    "qualifications": "MBBS, MS (ENT)",
+    "years_experience": 21,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Gujarati",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 420,
+    "rating": 4.1,
+    "review_count": 414,
+    "consult_minutes": 9,
+    "observed_consult_minutes": 10,
+    "popularity": 0.63,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "M",
+    "room": "Room 11",
+    "about": "Practising for 21 years and now seeing patients at Karve Road Care Clinic. Special interest in hearing checks, throat and voice and child ENT care. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "hearing checks",
+      "throat and voice",
+      "child ENT care"
+    ]
+  },
+  {
+    "id": "doc_042",
+    "name": "Dr. Sneha Pawar",
+    "specialty": "ENT",
+    "qualifications": "MBBS, MS (ENT)",
+    "years_experience": 19,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 490,
+    "rating": 4.6,
+    "review_count": 635,
+    "consult_minutes": 11,
+    "observed_consult_minutes": 9.1,
+    "popularity": 0.91,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "U",
+    "room": "Room 12",
+    "about": "With 19 years behind them, they consult at Baner Hills Medical Centre. Special interest in snoring and sinus trouble. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "snoring",
+      "sinus trouble"
+    ]
+  },
+  {
+    "id": "doc_043",
+    "name": "Dr. Rohan Gaikwad",
+    "specialty": "ENT",
+    "qualifications": "MBBS, MS (ENT)",
+    "years_experience": 11,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 640,
+    "rating": 4.5,
+    "review_count": 200,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 7.5,
+    "popularity": 1.06,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "pessimistic",
+    "token_prefix": "C",
+    "room": "Room 4",
+    "about": "With 11 years behind them, they consult at Baner Hills Medical Centre. Special interest in ear infections, child ENT care and snoring. Regularly runs awareness sessions for the neighbourhood.",
+    "focus": [
+      "ear infections",
+      "child ENT care",
+      "snoring"
+    ]
+  },
+  {
+    "id": "doc_044",
+    "name": "Dr. Anjali Agarwal",
+    "specialty": "ENT",
+    "qualifications": "MBBS, MS (ENT)",
+    "years_experience": 24,
+    "hospital_id": "hosp_hadapsar",
+    "languages": [
+      "Hindi",
+      "English",
+      "Marathi"
+    ],
+    "fee_inr": 680,
+    "rating": 4.2,
+    "review_count": 260,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 12.2,
+    "popularity": 0.78,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "H",
+    "room": "Room 5",
+    "about": "Hadapsar Riverside Hospital is home to this doctor's clinic, built on 24 years of experience. Special interest in hearing checks and snoring. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "hearing checks",
+      "snoring"
+    ]
+  },
+  {
+    "id": "doc_045",
+    "name": "Dr. Sunita Chauhan",
+    "specialty": "Ophthalmology",
+    "qualifications": "MBBS, MS (Ophthalmology)",
+    "years_experience": 3,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 770,
+    "rating": null,
+    "review_count": 0,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 7.2,
+    "popularity": 0.96,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "B",
+    "room": "Room 3",
+    "about": "Newly practising at Aundh Greenleaf Hospital, with fresh training in current guidelines. Special interest in children's eye care, vision checks and glaucoma follow-up. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "children's eye care",
+      "vision checks",
+      "glaucoma follow-up"
+    ]
+  },
+  {
+    "id": "doc_046",
+    "name": "Dr. Vikram Chauhan",
+    "specialty": "Ophthalmology",
+    "qualifications": "MBBS, MS (Ophthalmology)",
+    "years_experience": 27,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Hindi",
+      "English",
+      "Marathi"
+    ],
+    "fee_inr": 710,
+    "rating": 4.1,
+    "review_count": 549,
+    "consult_minutes": 16,
+    "observed_consult_minutes": 10.1,
+    "popularity": 1.23,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "F",
+    "room": "Room 11",
+    "about": "With 27 years behind them, they consult at Aundh Greenleaf Hospital. Special interest in children's eye care and dry eye. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "children's eye care",
+      "dry eye"
+    ]
+  },
+  {
+    "id": "doc_047",
+    "name": "Dr. Rohan Pawar",
+    "specialty": "Ophthalmology",
+    "qualifications": "MBBS, MS (Ophthalmology)",
+    "years_experience": 11,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 470,
+    "rating": 4.9,
+    "review_count": 351,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 10.2,
+    "popularity": 1.16,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "X",
+    "room": "Room 11",
+    "about": "Aundh Greenleaf Hospital is home to this doctor's clinic, built on 11 years of experience. Special interest in vision checks and children's eye care. Focuses on lifestyle changes that fit a patient's daily routine.",
+    "focus": [
+      "vision checks",
+      "children's eye care"
+    ]
+  },
+  {
+    "id": "doc_048",
+    "name": "Dr. Neha Gaikwad",
+    "specialty": "Ophthalmology",
+    "qualifications": "MBBS, MS (Ophthalmology)",
+    "years_experience": 16,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 570,
+    "rating": 4.2,
+    "review_count": 556,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 9,
+    "popularity": 1.38,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "U",
+    "room": "Room 4",
+    "about": "Karve Road Care Clinic is home to this doctor's clinic, built on 16 years of experience. Special interest in children's eye care and cataract review. Regularly runs awareness sessions for the neighbourhood.",
+    "focus": [
+      "children's eye care",
+      "cataract review"
+    ]
+  },
+  {
+    "id": "doc_049",
+    "name": "Dr. Lakshmi Rao",
+    "specialty": "Ophthalmology",
+    "qualifications": "MBBS, MS (Ophthalmology)",
+    "years_experience": 24,
+    "hospital_id": "hosp_hadapsar",
+    "languages": [
+      "Telugu",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 430,
+    "rating": 4.5,
+    "review_count": 639,
+    "consult_minutes": 13,
+    "observed_consult_minutes": 8.4,
+    "popularity": 0.79,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "N",
+    "room": "Room 9",
+    "about": "A 24-year career, most recently at Hadapsar Riverside Hospital. Special interest in cataract review, dry eye and diabetic eye screening. Known for a calm, step-by-step way of talking through options.",
+    "focus": [
+      "cataract review",
+      "dry eye",
+      "diabetic eye screening"
+    ]
+  },
+  {
+    "id": "doc_050",
+    "name": "Dr. Soumya Chatterjee",
+    "specialty": "Gynecology and Obstetrics",
+    "qualifications": "MBBS, MS (Obstetrics and Gynaecology)",
+    "years_experience": 20,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 880,
+    "rating": 4.2,
+    "review_count": 170,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 8.8,
+    "popularity": 0.7,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "V",
+    "room": "Room 3",
+    "about": "A 20-year career, most recently at Karve Road Care Clinic. Special interest in family planning and fertility counselling. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "family planning",
+      "fertility counselling"
+    ]
+  },
+  {
+    "id": "doc_051",
+    "name": "Dr. Deepa Menon",
+    "specialty": "Gynecology and Obstetrics",
+    "qualifications": "MBBS, MS (Obstetrics and Gynaecology)",
+    "years_experience": 20,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 890,
+    "rating": 4.1,
+    "review_count": 325,
+    "consult_minutes": 19,
+    "observed_consult_minutes": 20.4,
+    "popularity": 0.85,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "A",
+    "room": "Room 11",
+    "about": "With 20 years behind them, they consult at Baner Hills Medical Centre. Special interest in pregnancy care and irregular cycles. Focuses on lifestyle changes that fit a patient's daily routine.",
+    "focus": [
+      "pregnancy care",
+      "irregular cycles"
+    ]
+  },
+  {
+    "id": "doc_052",
+    "name": "Dr. Dhara Desai",
+    "specialty": "Gynecology and Obstetrics",
+    "qualifications": "MBBS, MS (Obstetrics and Gynaecology)",
+    "years_experience": 35,
+    "hospital_id": "hosp_viman",
+    "languages": [
+      "Gujarati",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 940,
+    "rating": 3.7,
+    "review_count": 518,
+    "consult_minutes": 13,
+    "observed_consult_minutes": 13.1,
+    "popularity": 0.82,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "T",
+    "room": "Room 6",
+    "about": "A 35-year career, most recently at Viman Nagar Orchid Clinic. Special interest in irregular cycles, family planning and PCOS. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "irregular cycles",
+      "family planning",
+      "PCOS"
+    ]
+  },
+  {
+    "id": "doc_053",
+    "name": "Dr. Ganesh Hegde",
+    "specialty": "Gynecology and Obstetrics",
+    "qualifications": "MBBS, MS (Obstetrics and Gynaecology)",
+    "years_experience": 16,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 950,
+    "rating": 3.7,
+    "review_count": 661,
+    "consult_minutes": 16,
+    "observed_consult_minutes": 11.7,
+    "popularity": 0.85,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 3",
+    "about": "A 16-year career, most recently at Baner Hills Medical Centre. Special interest in PCOS and fertility counselling. Takes extra time with first-time patients and elders.",
+    "focus": [
+      "PCOS",
+      "fertility counselling"
+    ]
+  },
+  {
+    "id": "doc_054",
+    "name": "Dr. Ramya Rao",
+    "specialty": "Gynecology and Obstetrics",
+    "qualifications": "MBBS, MS (Obstetrics and Gynaecology)",
+    "years_experience": 28,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Telugu",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 740,
+    "rating": 4,
+    "review_count": 12,
+    "consult_minutes": 16,
+    "observed_consult_minutes": 15.9,
+    "popularity": 0.81,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 10",
+    "about": "With 28 years behind them, they consult at Aundh Greenleaf Hospital. Special interest in pregnancy care, irregular cycles and PCOS. Works closely with the hospital's lab and imaging teams for same-day answers.",
+    "focus": [
+      "pregnancy care",
+      "irregular cycles",
+      "PCOS"
+    ]
+  },
+  {
+    "id": "doc_055",
+    "name": "Dr. Aniket Bhosale",
+    "specialty": "Gynecology and Obstetrics",
+    "qualifications": "MBBS, MS (Obstetrics and Gynaecology)",
+    "years_experience": 9,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 960,
+    "rating": 3.9,
+    "review_count": 336,
+    "consult_minutes": 19,
+    "observed_consult_minutes": 17.9,
+    "popularity": 0.87,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "D",
+    "room": "Room 7",
+    "about": "Practising for 9 years and now seeing patients at Karve Road Care Clinic. Special interest in irregular cycles, pregnancy care and menopause support. Often sees patients who travel from nearby towns and plans follow-ups to save trips.",
+    "focus": [
+      "irregular cycles",
+      "pregnancy care",
+      "menopause support"
+    ]
+  },
+  {
+    "id": "doc_056",
+    "name": "Dr. Ganesh Gowda",
+    "specialty": "Pediatrics",
+    "qualifications": "MBBS, MD (Paediatrics)",
+    "years_experience": 16,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 500,
+    "rating": 4.5,
+    "review_count": 456,
+    "consult_minutes": 13,
+    "observed_consult_minutes": 12.3,
+    "popularity": 1.23,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": true,
+    "booking_mode": "optimistic",
+    "token_prefix": "P",
+    "room": "Room 6",
+    "about": "A 16-year career, most recently at Baner Hills Medical Centre. Special interest in childhood allergies and newborn care. Known for explaining results in plain words and writing the plan down.",
+    "focus": [
+      "childhood allergies",
+      "newborn care"
+    ]
+  },
+  {
+    "id": "doc_057",
+    "name": "Dr. Anil Agarwal",
+    "specialty": "Pediatrics",
+    "qualifications": "MBBS, MD (Paediatrics)",
+    "years_experience": 21,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 600,
+    "rating": 4.3,
+    "review_count": 749,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 11.2,
+    "popularity": 1.24,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "G",
+    "room": "Room 8",
+    "about": "Practising for 21 years and now seeing patients at Karve Road Care Clinic. Special interest in childhood allergies and adolescent health. Often sees patients who travel from nearby towns and plans follow-ups to save trips.",
+    "focus": [
+      "childhood allergies",
+      "adolescent health"
+    ]
+  },
+  {
+    "id": "doc_058",
+    "name": "Dr. Divya Reddy",
+    "specialty": "Pediatrics",
+    "qualifications": "MBBS, MD (Paediatrics)",
+    "years_experience": 4,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Telugu",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 440,
+    "rating": null,
+    "review_count": 0,
+    "consult_minutes": 9,
+    "observed_consult_minutes": 10.6,
+    "popularity": 1.21,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "F",
+    "room": "Room 11",
+    "about": "Recently joined Aundh Greenleaf Hospital and building a practice. Special interest in vaccination schedules, newborn care and childhood allergies. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "vaccination schedules",
+      "newborn care",
+      "childhood allergies"
+    ]
+  },
+  {
+    "id": "doc_059",
+    "name": "Dr. Rubina Syed",
+    "specialty": "Pediatrics",
+    "qualifications": "MBBS, MD (Paediatrics)",
+    "years_experience": 28,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Urdu",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 550,
+    "rating": 3.9,
+    "review_count": 609,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 12.4,
+    "popularity": 1.22,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "16:00"
+      },
+      {
+        "day": 0,
+        "start": "09:30",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Y",
+    "room": "Room 10",
+    "about": "A 28-year career, most recently at Aundh Greenleaf Hospital. Special interest in childhood allergies, newborn care and vaccination schedules. Known for a calm, step-by-step way of talking through options.",
+    "focus": [
+      "childhood allergies",
+      "newborn care",
+      "vaccination schedules"
+    ]
+  },
+  {
+    "id": "doc_060",
+    "name": "Dr. Chinmay Bhosale",
+    "specialty": "Pediatrics",
+    "qualifications": "MBBS, MD (Paediatrics)",
+    "years_experience": 8,
+    "hospital_id": "hosp_viman",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 670,
+    "rating": 4,
+    "review_count": 36,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 10.3,
+    "popularity": 0.63,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "G",
+    "room": "Room 2",
+    "about": "Viman Nagar Orchid Clinic is home to this doctor's clinic, built on 8 years of experience. Special interest in adolescent health and newborn care. Takes extra time with first-time patients and elders.",
+    "focus": [
+      "adolescent health",
+      "newborn care"
+    ]
+  },
+  {
+    "id": "doc_061",
+    "name": "Dr. Deepa Nair",
+    "specialty": "Pediatrics",
+    "qualifications": "MBBS, MD (Paediatrics)",
+    "years_experience": 30,
+    "hospital_id": "hosp_viman",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 560,
+    "rating": 4,
+    "review_count": 465,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 13.9,
+    "popularity": 0.94,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "D",
+    "room": "Room 10",
+    "about": "With 30 years behind them, they consult at Viman Nagar Orchid Clinic. Special interest in vaccination schedules and adolescent health. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "vaccination schedules",
+      "adolescent health"
+    ]
+  },
+  {
+    "id": "doc_062",
+    "name": "Dr. Jaspreet Singh",
+    "specialty": "Pediatrics",
+    "qualifications": "MBBS, MD (Paediatrics)",
+    "years_experience": 22,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 580,
+    "rating": 4.4,
+    "review_count": 411,
+    "consult_minutes": 8,
+    "observed_consult_minutes": 8.1,
+    "popularity": 0.74,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 0,
+        "start": "10:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "H",
+    "room": "Room 7",
+    "about": "A 22-year career, most recently at Aundh Greenleaf Hospital. Special interest in childhood allergies and recurrent colds. Focuses on lifestyle changes that fit a patient's daily routine.",
+    "focus": [
+      "childhood allergies",
+      "recurrent colds"
+    ]
+  },
+  {
+    "id": "doc_063",
+    "name": "Dr. Soumya Banerjee",
+    "specialty": "Psychiatry",
+    "qualifications": "MBBS, MD (Psychiatry)",
+    "years_experience": 8,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1250,
+    "rating": 4.4,
+    "review_count": 73,
+    "consult_minutes": 20,
+    "observed_consult_minutes": 15.4,
+    "popularity": 0.7,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Y",
+    "room": "Room 11",
+    "about": "Aundh Greenleaf Hospital is home to this doctor's clinic, built on 8 years of experience. Special interest in student wellbeing and habit and addiction support. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "student wellbeing",
+      "habit and addiction support"
+    ]
+  },
+  {
+    "id": "doc_064",
+    "name": "Dr. Lakshmi Naidu",
+    "specialty": "Psychiatry",
+    "qualifications": "MBBS, MD (Psychiatry)",
+    "years_experience": 8,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Telugu",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1110,
+    "rating": 4.1,
+    "review_count": 118,
+    "consult_minutes": 20,
+    "observed_consult_minutes": 14.6,
+    "popularity": 0.62,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "J",
+    "room": "Room 5",
+    "about": "Baner Hills Medical Centre is home to this doctor's clinic, built on 8 years of experience. Special interest in sleep problems and student wellbeing. Takes extra time with first-time patients and elders.",
+    "focus": [
+      "sleep problems",
+      "student wellbeing"
+    ]
+  },
+  {
+    "id": "doc_065",
+    "name": "Dr. Ganesh Bhat",
+    "specialty": "Psychiatry",
+    "qualifications": "MBBS, MD (Psychiatry)",
+    "years_experience": 10,
+    "hospital_id": "hosp_hadapsar",
+    "languages": [
+      "Kannada",
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 1390,
+    "rating": 4.7,
+    "review_count": 768,
+    "consult_minutes": 20,
+    "observed_consult_minutes": 17.1,
+    "popularity": 1.17,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "D",
+    "room": "Room 3",
+    "about": "Practising for 10 years and now seeing patients at Hadapsar Riverside Hospital. Special interest in late-life mental health and student wellbeing. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "late-life mental health",
+      "student wellbeing"
+    ]
+  },
+  {
+    "id": "doc_066",
+    "name": "Dr. Omkar Phadke",
+    "specialty": "Urology",
+    "qualifications": "MBBS, MS, MCh (Urology)",
+    "years_experience": 14,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 750,
+    "rating": 3.8,
+    "review_count": 745,
+    "consult_minutes": 9,
+    "observed_consult_minutes": 9.2,
+    "popularity": 1.38,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "G",
+    "room": "Room 2",
+    "about": "A 14-year career, most recently at Karve Road Care Clinic. Special interest in men's health and urinary infections. Known for a calm, step-by-step way of talking through options.",
+    "focus": [
+      "men's health",
+      "urinary infections"
+    ]
+  },
+  {
+    "id": "doc_067",
+    "name": "Dr. Pooja Patil",
+    "specialty": "Urology",
+    "qualifications": "MBBS, MS, MCh (Urology)",
+    "years_experience": 26,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 1040,
+    "rating": 4,
+    "review_count": 520,
+    "consult_minutes": 13,
+    "observed_consult_minutes": 14,
+    "popularity": 1.36,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "09:30",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "L",
+    "room": "Room 9",
+    "about": "With 26 years behind them, they consult at Deccan Shivaji Polyclinic. Special interest in kidney stones and prostate care. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "kidney stones",
+      "prostate care"
+    ]
+  },
+  {
+    "id": "doc_068",
+    "name": "Dr. Manoj Gupta",
+    "specialty": "Urology",
+    "qualifications": "MBBS, MS, MCh (Urology)",
+    "years_experience": 19,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 720,
+    "rating": 4.1,
+    "review_count": 335,
+    "consult_minutes": 11,
+    "observed_consult_minutes": 11.3,
+    "popularity": 1.26,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "18:00"
+      },
+      {
+        "day": 0,
+        "start": "10:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "B",
+    "room": "Room 7",
+    "about": "Baner Hills Medical Centre is home to this doctor's clinic, built on 19 years of experience. Special interest in men's health and prostate care. Often sees patients who travel from nearby towns and plans follow-ups to save trips.",
+    "focus": [
+      "men's health",
+      "prostate care"
+    ]
+  },
+  {
+    "id": "doc_069",
+    "name": "Dr. Pooja Pawar",
+    "specialty": "Endocrinology",
+    "qualifications": "MBBS, MD, DM (Endocrinology)",
+    "years_experience": 32,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 1320,
+    "rating": 3.9,
+    "review_count": 478,
+    "consult_minutes": 17,
+    "observed_consult_minutes": 14.4,
+    "popularity": 1.25,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "pessimistic",
+    "token_prefix": "H",
+    "room": "Room 2",
+    "about": "A 32-year career, most recently at Aundh Greenleaf Hospital. Special interest in adolescent growth and thyroid disorders. Keeps visits unhurried and encourages families to bring questions.",
+    "focus": [
+      "adolescent growth",
+      "thyroid disorders"
+    ]
+  },
+  {
+    "id": "doc_070",
+    "name": "Dr. Simran Kaur",
+    "specialty": "Endocrinology",
+    "qualifications": "MBBS, MD, DM (Endocrinology)",
+    "years_experience": 34,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 1120,
+    "rating": 3.6,
+    "review_count": 156,
+    "consult_minutes": 12,
+    "observed_consult_minutes": 13.3,
+    "popularity": 0.64,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 2,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 3,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 4,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 5,
+        "start": "10:00",
+        "end": "16:00"
+      },
+      {
+        "day": 6,
+        "start": "10:00",
+        "end": "16:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "F",
+    "room": "Room 10",
+    "about": "Practising for 34 years and now seeing patients at Aundh Greenleaf Hospital. Special interest in thyroid disorders, diabetes management and hormone imbalance. Regularly runs awareness sessions for the neighbourhood.",
+    "focus": [
+      "thyroid disorders",
+      "diabetes management",
+      "hormone imbalance"
+    ]
+  },
+  {
+    "id": "doc_071",
+    "name": "Dr. Manoj Yadav",
+    "specialty": "Endocrinology",
+    "qualifications": "MBBS, MD, DM (Endocrinology)",
+    "years_experience": 4,
+    "hospital_id": "hosp_hadapsar",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 980,
+    "rating": null,
+    "review_count": 0,
+    "consult_minutes": 19,
+    "observed_consult_minutes": 18.5,
+    "popularity": 1.23,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:30",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:30",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "C",
+    "room": "Room 9",
+    "about": "Recently joined Hadapsar Riverside Hospital and building a practice. Special interest in weight and metabolism and adolescent growth. Regularly runs awareness sessions for the neighbourhood.",
+    "focus": [
+      "weight and metabolism",
+      "adolescent growth"
+    ]
+  },
+  {
+    "id": "doc_072",
+    "name": "Dr. Harpreet Singh",
+    "specialty": "Endocrinology",
+    "qualifications": "MBBS, MD, DM (Endocrinology)",
+    "years_experience": 33,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 1020,
+    "rating": 4.7,
+    "review_count": 712,
+    "consult_minutes": 20,
+    "observed_consult_minutes": 14.5,
+    "popularity": 0.63,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": true,
+    "booking_mode": "optimistic",
+    "token_prefix": "P",
+    "room": "Room 7",
+    "about": "Practising for 33 years and now seeing patients at Aundh Greenleaf Hospital. Special interest in diabetes management, thyroid disorders and adolescent growth. Likes to review old reports in detail before the visit begins.",
+    "focus": [
+      "diabetes management",
+      "thyroid disorders",
+      "adolescent growth"
+    ]
+  },
+  {
+    "id": "doc_073",
+    "name": "Dr. Kavya Nair",
+    "specialty": "Nephrology",
+    "qualifications": "MBBS, MD, DM (Nephrology)",
+    "years_experience": 21,
+    "hospital_id": "hosp_aundh",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 800,
+    "rating": 3.9,
+    "review_count": 426,
+    "consult_minutes": 14,
+    "observed_consult_minutes": 10.7,
+    "popularity": 0.96,
+    "schedule": [
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 0,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "W",
+    "room": "Room 9",
+    "about": "With 21 years behind them, they consult at Aundh Greenleaf Hospital. Special interest in kidney stones, transplant follow-up and dialysis planning. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "kidney stones",
+      "transplant follow-up",
+      "dialysis planning"
+    ]
+  },
+  {
+    "id": "doc_074",
+    "name": "Dr. Deepa Krishnan",
+    "specialty": "Nephrology",
+    "qualifications": "MBBS, MD, DM (Nephrology)",
+    "years_experience": 25,
+    "hospital_id": "hosp_deccan",
+    "languages": [
+      "English",
+      "Hindi"
+    ],
+    "fee_inr": 780,
+    "rating": 3.9,
+    "review_count": 653,
+    "consult_minutes": 15,
+    "observed_consult_minutes": 17.4,
+    "popularity": 1.38,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "L",
+    "room": "Room 1",
+    "about": "Deccan Shivaji Polyclinic is home to this doctor's clinic, built on 25 years of experience. Special interest in blood pressure and kidneys, dialysis planning and chronic kidney care. Keeps visits unhurried and encourages families to bring questions.",
+    "focus": [
+      "blood pressure and kidneys",
+      "dialysis planning",
+      "chronic kidney care"
+    ]
+  },
+  {
+    "id": "doc_075",
+    "name": "Dr. Zoya Qureshi",
+    "specialty": "Dentistry",
+    "qualifications": "BDS",
+    "years_experience": 15,
+    "hospital_id": "hosp_karve",
+    "languages": [
+      "Urdu",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 300,
+    "rating": 4,
+    "review_count": 452,
+    "consult_minutes": 19,
+    "observed_consult_minutes": 12.8,
+    "popularity": 0.8,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 2,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 4,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "H",
+    "room": "Room 11",
+    "about": "A 15-year career, most recently at Karve Road Care Clinic. Special interest in smile correction, dentures and braces and aligners. Known for a calm, step-by-step way of talking through options.",
+    "focus": [
+      "smile correction",
+      "dentures",
+      "braces and aligners"
+    ]
+  },
+  {
+    "id": "doc_076",
+    "name": "Dr. Bhumika Shah",
+    "specialty": "Dentistry",
+    "qualifications": "BDS, MDS",
+    "years_experience": 9,
+    "hospital_id": "hosp_hadapsar",
+    "languages": [
+      "Gujarati",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 450,
+    "rating": 4.5,
+    "review_count": 653,
+    "consult_minutes": 17,
+    "observed_consult_minutes": 12.5,
+    "popularity": 0.87,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "17:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "17:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "pessimistic",
+    "token_prefix": "B",
+    "room": "Room 2",
+    "about": "Hadapsar Riverside Hospital is home to this doctor's clinic, built on 9 years of experience. Special interest in smile correction and gum health. Often sees patients who travel from nearby towns and plans follow-ups to save trips.",
+    "focus": [
+      "smile correction",
+      "gum health"
+    ]
+  },
+  {
+    "id": "doc_077",
+    "name": "Dr. Rohan Bhosale",
+    "specialty": "Dentistry",
+    "qualifications": "BDS",
+    "years_experience": 35,
+    "hospital_id": "hosp_baner",
+    "languages": [
+      "Marathi",
+      "Hindi",
+      "English"
+    ],
+    "fee_inr": 310,
+    "rating": 4.2,
+    "review_count": 715,
+    "consult_minutes": 10,
+    "observed_consult_minutes": 8.3,
+    "popularity": 1.38,
+    "schedule": [
+      {
+        "day": 1,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 3,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 5,
+        "start": "09:00",
+        "end": "18:00"
+      },
+      {
+        "day": 6,
+        "start": "09:00",
+        "end": "18:00"
+      }
+    ],
+    "on_leave": false,
+    "booking_mode": "optimistic",
+    "token_prefix": "Z",
+    "room": "Room 5",
+    "about": "With 35 years behind them, they consult at Baner Hills Medical Centre. Special interest in smile correction, root canal care and braces and aligners. Prefers to start with simple measures before suggesting more tests.",
+    "focus": [
+      "smile correction",
+      "root canal care",
+      "braces and aligners"
+    ]
+  }
+]

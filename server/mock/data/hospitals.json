@@ -1,0 +1,50 @@
+[
+  {
+    "id": "hosp_karve",
+    "name": "Karve Road Care Clinic",
+    "locality": "Kothrud",
+    "lat": 18.5189,
+    "lng": 73.8077,
+    "has_emergency": true
+  },
+  {
+    "id": "hosp_aundh",
+    "name": "Aundh Greenleaf Hospital",
+    "locality": "Aundh",
+    "lat": 18.559,
+    "lng": 73.807,
+    "has_emergency": true
+  },
+  {
+    "id": "hosp_baner",
+    "name": "Baner Hills Medical Centre",
+    "locality": "Baner",
+    "lat": 18.559,
+    "lng": 73.7868,
+    "has_emergency": false
+  },
+  {
+    "id": "hosp_deccan",
+    "name": "Deccan Shivaji Polyclinic",
+    "locality": "Shivajinagar",
+    "lat": 18.5308,
+    "lng": 73.8475,
+    "has_emergency": true
+  },
+  {
+    "id": "hosp_hadapsar",
+    "name": "Hadapsar Riverside Hospital",
+    "locality": "Hadapsar",
+    "lat": 18.5089,
+    "lng": 73.926,
+    "has_emergency": false
+  },
+  {
+    "id": "hosp_viman",
+    "name": "Viman Nagar Orchid Clinic",
+    "locality": "Viman Nagar",
+    "lat": 18.5679,
+    "lng": 73.9143,
+    "has_emergency": false
+  }
+]

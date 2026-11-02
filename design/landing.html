@@ -1,0 +1,160 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@500&family=Instrument+Serif:ital@0;1&family=Mukta:wght@400;500&display=swap">
+<style>
+:root{
+--bg:#F4F2EC;--surface:#FBFAF7;--ink:#16181D;--ink-2:#5B5F6B;--ink-3:#8A8D97;--line:#E3E0D8;
+--accent:#3F6F63;--accent-soft:#DCE8E2;--mist:#D9E6DF;--lilac:#E4DDF3;--peach:#F3E1D3;
+--ok:#7FB59B;--watch:#E8C77E;--out:#E5A592;
+--serif:'Instrument Serif',serif;--sans:'Geist','Mukta',sans-serif;--mono:'Geist Mono',monospace;
+--ease:cubic-bezier(.22,1,.36,1)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{width:1440px;background:var(--bg);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{width:1200px;margin:0 auto}
+.label{font-size:12px;line-height:16px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:var(--ink-3)}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:12px;line-height:16px;letter-spacing:.08em;text-transform:uppercase;font-weight:500;color:var(--accent)}
+.eyebrow:before{content:"";width:6px;height:6px;border-radius:50%;background:var(--accent)}
+h2{font-family:var(--serif);font-weight:400;font-size:56px;line-height:60px;letter-spacing:-.025em}
+h2 i,h1 i{color:var(--accent)}
+h3{font-size:20px;line-height:28px;font-weight:500;letter-spacing:-.01em}
+.lead{font-size:20px;line-height:32px;color:var(--ink-2)}
+.body{font-size:16px;line-height:26px;color:var(--ink-2)}
+.small{font-size:14px;line-height:22px;color:var(--ink-2)}
+.btn{display:inline-flex;align-items:center;gap:8px;height:48px;padding:0 24px;border-radius:999px;font-size:15px;font-weight:500;line-height:1}
+.btn-p{background:var(--ink);color:var(--bg)}
+.btn-s{background:var(--surface);color:var(--ink);border:1px solid var(--line)}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:24px;box-shadow:0 1px 0 rgba(22,24,29,.02),0 24px 48px -24px rgba(22,24,29,.12)}
+.chip{display:inline-flex;align-items:center;height:28px;padding:0 12px;border-radius:999px;font-size:13px;font-weight:500;background:var(--accent-soft);color:#2F5A4F}
+section{padding:128px 0}
+.banner{height:40px;background:var(--ink);color:#C9CEC9;font-size:13px;line-height:40px;text-align:center;letter-spacing:.01em}
+.banner b{color:#F4F2EC;font-weight:500}.banner span{color:#A9D6C4}
+nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-family:var(--serif);font-size:28px;line-height:1;letter-spacing:-.02em;display:flex;align-items:center;gap:10px}
+.mark{width:28px;height:28px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,var(--mist) 55%,#9CC2B3);box-shadow:inset 0 0 0 1px rgba(63,111,99,.25)}
+nav ul{display:flex;gap:32px;list-style:none;font-size:15px;color:var(--ink-2)}
+.hero{padding:96px 0 0;text-align:center}
+h1{font-family:var(--serif);font-weight:400;font-size:112px;line-height:104px;letter-spacing:-.035em;margin-top:24px}
+.hero .lead{width:720px;margin:32px auto 0;text-wrap:balance}
+.ask{width:640px;height:64px;margin:48px auto 0;border-radius:999px;background:var(--surface);border:1px solid var(--line);display:flex;align-items:center;padding:0 8px 0 28px;gap:12px;box-shadow:0 24px 48px -24px rgba(63,111,99,.28)}
+.ask p{flex:1;text-align:left;font-size:16px;color:var(--ink-3)}
+.ask .go{width:48px;height:48px;border-radius:50%;background:var(--accent);display:flex;align-items:center;justify-content:center}
+.langs{margin-top:16px;display:flex;justify-content:center;gap:8px}
+.langs span{font-size:13px;line-height:28px;height:28px;padding:0 12px;border-radius:999px;border:1px solid var(--line);color:var(--ink-2);background:rgba(251,250,247,.6)}
+.langs span.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.stage{position:relative;height:560px;margin-top:80px;border-radius:32px;overflow:hidden;background:#EEF1EC;border:1px solid var(--line)}
+.blob{position:absolute;border-radius:50%;filter:blur(80px)}
+.ring{position:absolute;left:50%;top:50%;border-radius:50%;border:1px solid rgba(63,111,99,.16);transform:translate(-50%,-50%)}
+.orb{position:absolute;left:50%;top:50%;width:240px;height:240px;transform:translate(-50%,-50%);border-radius:50%;background:radial-gradient(circle at 38% 32%,#FFFFFF 0%,#EEF4F0 40%,#CFE0D7 75%,#AFCBBF 100%);box-shadow:0 40px 80px -30px rgba(47,90,79,.45),inset 0 -12px 30px rgba(63,111,99,.12);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:left}
+.orb .n{font-family:var(--serif);font-size:56px;line-height:56px;letter-spacing:-.02em;margin:6px 0 4px}
+.float{position:absolute;padding:20px 24px;text-align:left;background:rgba(251,250,247,.86);backdrop-filter:blur(12px)}
+.bar{position:relative;height:6px;display:flex;gap:2px;margin:16px 0 12px}
+.bar i{display:block;height:100%}
+.bar i:first-child{border-radius:3px 0 0 3px}.bar i:nth-last-child(2){border-radius:0 3px 3px 0}
+.dot{position:absolute;top:-5px;width:16px;height:16px;border-radius:50%;background:var(--ink);border:3px solid var(--surface);box-sizing:border-box}
+.trust{padding:64px 0 0;display:flex;align-items:center;justify-content:center;gap:48px}
+.trust b{font-weight:500;color:var(--ink-2);font-size:15px}
+.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:24px;margin-top:64px}
+.step{padding:32px 32px 0 0;border-top:1px solid var(--ink)}
+.step .num{font-family:var(--mono);font-size:13px;color:var(--accent)}
+.step h3{margin:24px 0 12px}
+.bento{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;margin-top:64px}
+.b{padding:32px;position:relative;overflow:hidden;display:flex;flex-direction:column}
+.b .end{margin-top:auto}
+.dark{background:var(--ink);color:#E9ECE8;border-radius:32px;padding:96px;display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px}
+.dark h2{color:#F4F2EC}.dark h2 i{color:#A9D6C4}
+.pr{padding-top:24px;border-top:1px solid rgba(233,236,232,.16)}
+.pr h3{color:#F4F2EC;margin-bottom:8px}.pr p{font-size:15px;line-height:24px;color:#A3A9A6}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-3);font-weight:500;text-align:left;padding:12px 0;border-bottom:1px solid var(--line)}
+td{padding:16px 0;border-bottom:1px solid var(--line);color:var(--ink)}
+.mono{font-family:var(--mono);font-size:14px}
+.cta{text-align:center;padding:128px 0;border-radius:32px;position:relative;overflow:hidden;background:#EEF1EC;border:1px solid var(--line)}
+footer{padding:48px 0 64px;display:flex;justify-content:space-between;font-size:14px;color:var(--ink-3);border-top:1px solid var(--line);margin-top:96px}
+</style></head><body>
+
+<div class="banner"><b>KHOJ 2026</b> &nbsp;·&nbsp; Team KHOJT46 &nbsp;·&nbsp; The prototype is live: triage, report explain and wait-time prediction &nbsp;<span>Try it →</span></div>
+
+<div class="wrap">
+<nav><div class="logo"><div class="mark"></div>healix</div><ul><li>How it works</li><li>Features</li><li>For hospitals</li><li>Responsible AI</li></ul><div style="display:flex;gap:12px"><span class="btn btn-s" style="height:40px;padding:0 18px;font-size:14px">Sign in</span><span class="btn btn-p" style="height:40px;padding:0 18px;font-size:14px">Try the demo</span></div></nav>
+
+<div class="hero">
+<span class="eyebrow">AI patient navigation for India</span>
+<h1>Know where to go,<br><i>before</i> you go.</h1>
+<p class="lead">Tell Healix how you feel, in your own language. It finds the right specialist, the right time to leave, and explains your reports gently.</p>
+<div class="ask"><p>Do din se pet mein jalan ho rahi hai…</p>
+<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#5B5F6B" stroke-width="1.8" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>
+<div class="go"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></div></div>
+<div class="langs"><span class="on">English</span><span>हिन्दी</span><span>मराठी</span><span>Hinglish</span></div>
+
+<div class="stage">
+<div class="blob" style="width:520px;height:420px;left:-80px;top:120px;background:var(--mist)"></div>
+<div class="blob" style="width:460px;height:380px;right:-60px;top:-60px;background:var(--lilac)"></div>
+<div class="blob" style="width:420px;height:320px;right:120px;bottom:-140px;background:var(--peach)"></div>
+<div class="ring" style="width:340px;height:340px"></div>
+<div class="ring" style="width:460px;height:460px"></div>
+<div class="ring" style="width:600px;height:600px;border-color:rgba(63,111,99,.10)"></div>
+<div class="orb" style="text-align:center"><span class="label">Leave home in</span><span class="n">25 min</span><span class="small">Token A-23 · Room 4</span></div>
+<div class="card float" style="left:64px;top:72px;width:304px"><span class="label">Triage</span><h3 style="margin:8px 0 12px">Gastroenterologist</h3><div style="display:flex;gap:8px"><span class="chip">No red flags</span><span class="chip" style="background:#F5EBD3;color:#7A5A16">Within 2 days</span></div></div>
+<div class="card float" style="right:64px;top:96px;width:304px"><span class="label">HbA1c · explained</span><div style="display:flex;align-items:baseline;gap:6px;margin-top:8px"><span style="font-family:var(--serif);font-size:40px;line-height:44px">7.1</span><span class="small">%</span><span class="chip" style="margin-left:auto">Improving</span></div><div class="bar"><i style="width:28%;background:var(--ok)"></i><i style="width:13%;background:var(--watch)"></i><i style="width:59%;background:var(--out)"></i><span class="dot" style="left:calc(52% - 8px)"></span></div><p class="small">Down from 7.9 in June.</p></div>
+<div class="card float" style="left:120px;bottom:64px;width:320px"><span class="label">Why this estimate</span><div class="small" style="margin-top:12px;display:flex;justify-content:space-between"><span>Monday morning rush</span><span class="mono" style="color:#9A4A33">+12m</span></div><div class="small" style="display:flex;justify-content:space-between"><span>Doctor started late</span><span class="mono" style="color:#9A4A33">+8m</span></div><div class="small" style="display:flex;justify-content:space-between"><span>Quick follow-ups ahead</span><span class="mono" style="color:var(--accent)">−6m</span></div></div>
+<div class="card float" style="right:120px;bottom:72px;width:304px"><span class="label">Ask your doctor</span><p style="font-family:var(--serif);font-size:24px;line-height:30px;margin-top:8px">“Should my diabetes medicine change?”</p></div>
+</div>
+</div>
+
+<div class="trust"><span class="label">Answers grounded in</span><b>WHO guidelines</b><b>ICMR</b><b>MoHFW</b><span class="label">· with citations on every reply</span></div>
+</div>
+
+<section><div class="wrap">
+<span class="eyebrow">How it works</span>
+<h2 style="margin-top:16px;width:720px">Three calm steps, <i>no</i> guesswork.</h2>
+<div class="steps">
+<div class="step"><span class="num">01</span><h3>Say how you feel</h3><p class="body">Speak or type in Hindi, Marathi, English or a mix. Tap the body map if words are hard.</p></div>
+<div class="step"><span class="num">02</span><h3>See the reasoning</h3><p class="body">Healix checks danger signs first, then shows each step it took to pick a specialist.</p></div>
+<div class="step"><span class="num">03</span><h3>Leave at the right time</h3><p class="body">Book a token and get told when to leave home, so you wait on your sofa, not in a corridor.</p></div>
+</div></div></section>
+
+<section style="padding-top:0"><div class="wrap">
+<div style="display:flex;justify-content:space-between;align-items:flex-end"><div><span class="eyebrow">Features</span><h2 style="margin-top:16px;width:640px">Everything a patient worries about, <i>answered</i>.</h2></div><p class="body" style="width:360px">Built for elderly and chronic-care patients, and the family members who look after them.</p></div>
+<div class="bento">
+<div class="card b" style="grid-column:span 7;height:440px"><span class="label">Report explain</span><h3 style="margin:8px 0 4px">Lab values, in plain words</h3><p class="small" style="width:420px">Upload a photo of any report. Every value is placed on a simple range, with what it means and what to ask.</p>
+<div class="end" style="display:flex;flex-direction:column;gap:20px">
+<div><div style="display:flex;justify-content:space-between" class="small"><span style="color:var(--ink);font-weight:500">Fasting glucose</span><span class="mono">132 mg/dL</span></div><div class="bar"><i style="width:13%;background:var(--watch)"></i><i style="width:20%;background:var(--ok)"></i><i style="width:17%;background:var(--watch)"></i><i style="width:50%;background:var(--out)"></i><span class="dot" style="left:calc(55% - 8px)"></span></div></div>
+<div><div style="display:flex;justify-content:space-between" class="small"><span style="color:var(--ink);font-weight:500">Vitamin D</span><span class="mono">18 ng/mL</span></div><div class="bar"><i style="width:20%;background:var(--out)"></i><i style="width:10%;background:var(--watch)"></i><i style="width:70%;background:var(--ok)"></i><span class="dot" style="left:calc(18% - 8px)"></span></div></div>
+<div><div style="display:flex;justify-content:space-between" class="small"><span style="color:var(--ink);font-weight:500">Haemoglobin</span><span class="mono">12.8 g/dL</span></div><div class="bar"><i style="width:37.5%;background:var(--out)"></i><i style="width:43.75%;background:var(--ok)"></i><i style="width:18.75%;background:var(--out)"></i><span class="dot" style="left:calc(47.5% - 8px)"></span></div></div>
+</div></div>
+<div class="card b" style="grid-column:span 5;height:440px;background:#EEF1EC"><span class="label">Predictive queue</span><h3 style="margin:8px 0 4px">Wait at home, not in a corridor</h3><p class="small">Wait times forecast from live token data, with the reasons shown.</p>
+<div style="position:absolute;left:50%;bottom:-150px;transform:translateX(-50%);width:420px;height:420px;border-radius:50%;border:1px solid rgba(63,111,99,.16)"></div>
+<div style="position:absolute;left:50%;bottom:-70px;transform:translateX(-50%);width:280px;height:280px;border-radius:50%;background:radial-gradient(circle at 38% 32%,#fff,#E6EFEA 45%,#BFD6CB);box-shadow:0 40px 80px -30px rgba(47,90,79,.4);display:flex;flex-direction:column;align-items:center;padding-top:64px"><span class="label">Now serving</span><span style="font-family:var(--mono);font-size:32px;line-height:40px;margin-top:4px">A-17</span><span class="small">6 ahead of you</span></div></div>
+<div class="card b" style="grid-column:span 4;height:280px"><span class="label">Your language</span><h3 style="margin:8px 0 0">Speaks like you do</h3><div class="end"><p style="font-family:'Mukta';font-size:32px;line-height:44px">पोटात जळजळ होते</p><p class="small" style="margin-top:4px">“Burning in the stomach” · understood in Marathi</p></div></div>
+<div class="card b" style="grid-column:span 4;height:280px"><span class="label">Family mode</span><h3 style="margin:8px 0 0">Care for Aai from your phone</h3><div class="end"><div style="display:flex;gap:8px;flex-wrap:wrap"><span class="chip" style="background:var(--ink);color:var(--bg)">Me</span><span class="chip">Aai · 82</span><span class="chip">Baba · 85</span></div><p class="small" style="margin-top:16px">Reports, tokens and reminders for every profile, with large-text mode for elders.</p></div></div>
+<div class="card b" style="grid-column:span 4;height:280px"><span class="label">Emergency</span><h3 style="margin:8px 0 0">Hold to call for help</h3><div class="end" style="display:flex;align-items:center;gap:16px"><div style="flex-shrink:0;width:72px;height:72px;border-radius:50%;border:1px solid #E9C8BC;display:flex;align-items:center;justify-content:center"><div style="width:56px;height:56px;border-radius:50%;background:#F6E3DC;color:#9A4A33;font-size:13px;font-weight:500;display:flex;align-items:center;justify-content:center">SOS</div></div><p class="small">Shares live location and a pre-alert summary with the hospital.</p></div></div>
+</div></div></section>
+
+<div class="wrap"><div class="dark">
+<div style="grid-column:span 5"><span class="eyebrow" style="color:#A9D6C4">Responsible AI</span><h2 style="margin-top:16px">Guidance, <i>never</i> diagnosis.</h2></div>
+<div style="grid-column:7 / span 6;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:40px 24px">
+<div class="pr"><h3>Danger signs first</h3><p>Red-flag rules run before the AI and send urgent cases straight to emergency care.</p></div>
+<div class="pr"><h3>Reasoning you can see</h3><p>Every suggestion shows the steps behind it and the sources it used.</p></div>
+<div class="pr"><h3>Your data, your consent</h3><p>Encrypted, consent-checked on every read, designed around India's DPDP Act.</p></div>
+<div class="pr"><h3>Doctors stay in charge</h3><p>Healix prepares patients and clinicians; it never replaces the consultation.</p></div>
+</div></div></div>
+
+<section><div class="wrap" style="display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:24px;align-items:center">
+<div style="grid-column:span 5"><span class="eyebrow">For hospitals</span><h2 style="margin-top:16px">A calmer <i>waiting</i> room.</h2><p class="body" style="margin-top:24px;width:400px">Live queues, predicted waits and doctor availability on one screen, so front desks spend less time answering “how long?”.</p><span class="btn btn-s" style="margin-top:32px">See the dashboard</span></div>
+<div class="card" style="grid-column:7 / span 6;padding:32px">
+<div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px"><h3>Live queue · OPD</h3><span class="chip"><span style="width:6px;height:6px;border-radius:50%;background:var(--accent);margin-right:6px"></span>Live</span></div>
+<table><tr><th style="width:52%">Doctor</th><th style="width:14%">Now</th><th style="width:14%">Waiting</th><th style="text-align:right">Predicted wait</th></tr>
+<tr><td>Dr. Meera Kulkarni · Gastro</td><td class="mono">A-17</td><td>6</td><td class="mono" style="text-align:right">32 min</td></tr>
+<tr><td>Dr. Arjun Rao · Cardio</td><td class="mono">C-09</td><td>3</td><td class="mono" style="text-align:right">14 min</td></tr>
+<tr><td>Dr. Fatima Shaikh · General</td><td class="mono">G-41</td><td>11</td><td class="mono" style="color:#9A4A33;text-align:right">48 min</td></tr>
+</table></div>
+</div></section>
+
+<div class="wrap">
+<div class="cta">
+<div class="blob" style="width:520px;height:360px;left:-100px;top:-80px;background:var(--mist)"></div>
+<div class="blob" style="width:480px;height:360px;right:-80px;bottom:-120px;background:var(--lilac)"></div>
+<div style="position:relative"><h2 style="font-size:80px;line-height:80px;letter-spacing:-.03em">Feel unwell? <i>Start here.</i></h2><p class="lead" style="margin:24px auto 0;width:600px">Describe a symptom or upload a report. It takes less than a minute.</p><div style="display:flex;gap:12px;justify-content:center;margin-top:40px"><span class="btn btn-p">Describe a symptom →</span><span class="btn btn-s">Upload a report</span></div></div>
+</div>
+<footer><div class="logo" style="font-size:22px;color:var(--ink)"><div class="mark" style="width:22px;height:22px"></div>healix</div><span>Built for KHOJ 2026 by Team KHOJT46</span><span>Healix gives guidance, not medical diagnosis.</span></footer>
+</div>
+</body></html>
