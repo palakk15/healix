@@ -34,6 +34,7 @@ const Community = lazy(() => import("./patient/Community"));
 const CommunityPost = lazy(() => import("./patient/CommunityPost"));
 const Emergency = lazy(() => import("./patient/Emergency"));
 const Settings = lazy(() => import("./patient/Settings"));
+const Profile = lazy(() => import("./patient/Profile"));
 
 const StaffLogin = lazyWithMessages(["hospital", "app"], () => import("./hospital/StaffLogin"));
 const Overview = lazy(() => import("./hospital/Overview"));
@@ -76,6 +77,7 @@ export const router = createBrowserRouter([
       { path: "community/:id", element: <CommunityPost /> },
       { path: "emergency", element: <Emergency /> },
       { path: "settings", element: <Settings /> },
+      { path: "profile", element: <Profile /> },
       { path: "*", element: <Navigate to="/app" replace /> },
     ],
   },

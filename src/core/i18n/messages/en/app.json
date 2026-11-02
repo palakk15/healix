@@ -9,6 +9,7 @@
       "title": "Your phone number",
       "body": "We will send a code to confirm it is you.",
       "label": "Mobile number",
+      "nameLabel": "Full name",
       "send": "Send code",
       "demoAccount": "Use the demo account",
       "otpTitle": "Enter the code",
@@ -79,6 +80,11 @@
     "sosTitle": "Hold for emergency help",
     "sosHint": "Press and hold for 2 seconds",
     "profiles": "Profiles",
+    "profile": "My profile",
+    "appointments": "Your appointments",
+    "appointmentStatus": "Appointment: {{status}}",
+    "appointmentSwapHint": "Open to see your token and swap requests.",
+    "swapStatus": "Token swap: {{status}}",
     "community": "Community",
     "communityHint": "Share and read experiences"
   },
@@ -475,6 +481,19 @@
     "privacyTitle": "Your privacy",
     "privacyBody": "Your health details stay on the server, never in this browser. Only your language and large-text choice are remembered on this device.",
     "signOut": "Sign out"
+  },
+  "profilePage": {
+    "title": "My profile",
+    "subtitle": "Your details and previous visits",
+    "history": "Previous visits",
+    "loading": "Loading your visits…",
+    "loadFailed": "We could not load your visit history. Please try again.",
+    "empty": "Your completed and current visits will appear here.",
+    "noProfile": "No profile is selected.",
+    "ageAndSex": "{{age}} years · {{sex}}",
+    "conditions": "Health conditions: {{conditions}}",
+    "language": "Language: {{language}}",
+    "none": "None listed"
   },
   "profileForm": {
     "myDetails": "Your details",

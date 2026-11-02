@@ -20,7 +20,8 @@
       "badPhone": "10 अंकों का मोबाइल नंबर दर्ज करें।",
       "badCode": "यह कोड सही नहीं है। कृपया फिर कोशिश करें।",
       "failed": "साइन इन नहीं हो पाया। कृपया फिर कोशिश करें।",
-      "localCode": "इस ऐप के लिए तय किया गया साइन-इन कोड डालें। इस सेटअप में टेक्स्ट संदेश नहीं भेजा जाता।"
+      "localCode": "इस ऐप के लिए तय किया गया साइन-इन कोड डालें। इस सेटअप में टेक्स्ट संदेश नहीं भेजा जाता।",
+      "nameLabel": "Full name"
     },
     "consent": {
       "title": "Healix क्या इस्तेमाल कर सकता है?",
@@ -82,7 +83,12 @@
     "profiles": "प्रोफ़ाइल",
     "_review": true,
     "community": "कम्युनिटी",
-    "communityHint": "अनुभव साझा करें और पढ़ें"
+    "communityHint": "अनुभव साझा करें और पढ़ें",
+    "profile": "My profile",
+    "appointments": "Your appointments",
+    "appointmentStatus": "Appointment: {{status}}",
+    "appointmentSwapHint": "Open to see your token and swap requests.",
+    "swapStatus": "Token swap: {{status}}"
   },
   "triage": {
     "title": "बताइए आपको कैसा लग रहा है",
@@ -665,5 +671,18 @@
     "issued": "टोकन जारी हुआ",
     "directions": "रास्ता देखें",
     "_review": true
+  },
+  "profilePage": {
+    "title": "My profile",
+    "subtitle": "Your details and previous visits",
+    "history": "Previous visits",
+    "loading": "Loading your visits…",
+    "loadFailed": "We could not load your visit history. Please try again.",
+    "empty": "Your completed and current visits will appear here.",
+    "noProfile": "No profile is selected.",
+    "ageAndSex": "{{age}} years · {{sex}}",
+    "conditions": "Health conditions: {{conditions}}",
+    "language": "Language: {{language}}",
+    "none": "None listed"
   }
 }

@@ -45,7 +45,7 @@ function CurrentToken() {
   const profile = useSession((state) => activeProfile(state));
   const tokens = useQuery({ queryKey: ["tokens", "mine"], queryFn: () => backend.myTokens(), retry: 1 });
   if (tokens.isPending) return <main id="main" className="px-5 pt-8" />;
-  const mine = (tokens.data ?? []).find((token) => token.profile_id === profile?.id) ?? tokens.data?.[0];
+  const mine = (tokens.data ?? []).find((token) => token.profile_id === profile?.id && (token.status === "waiting" || token.status === "called"));
   return mine ? <Navigate to={`/app/token/${mine.id}`} replace /> : <EmptyToken />;
 }
 

@@ -36,14 +36,27 @@ export async function grantConsents(purposes: ConsentPurpose[]): Promise<void> {
   );
 }
 
-export async function signInOrRegister(phone: string, otp: string): Promise<void> {
+export async function signInOrRegister(phone: string, otp: string, name: string): Promise<void> {
   const { backend } = await import("@core/api/backend");
   const { ApiError } = await import("@core/api/error");
   try {
     await loginWithPhone(phone, otp);
+    const user = sessionStore.getState().user;
+    const self = user?.profiles.find((profile) => profile.relation === "self");
+    if (self && ["New", "New patient"].includes(self.name) && name) {
+      const updated = await backend.updateProfile(self.id, {
+        name,
+        age: self.age,
+        sex: self.sex,
+        conditions: self.conditions,
+        language: self.language,
+        elder_mode: self.elder_mode,
+      });
+      sessionStore.getState().replaceProfile(updated);
+    }
   } catch (cause) {
     if (!(cause instanceof ApiError) || cause.code !== "user_not_found") throw cause;
-    const auth = await backend.register(phone, undefined, otp);
+    const auth = await backend.register(phone, name, otp);
     sessionStore.getState().startSession(auth);
   }
 }

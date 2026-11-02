@@ -20,7 +20,8 @@
       "badPhone": "10 ankon ka mobile number daalein.",
       "badCode": "Yeh code sahi nahi hai. Kripya phir koshish karein.",
       "failed": "Sign in nahi ho paya. Kripya phir koshish karein.",
-      "localCode": "Is app ke liye tay kiya gaya sign-in code daalein. Is setup mein text message nahi bheja jaata."
+      "localCode": "Is app ke liye tay kiya gaya sign-in code daalein. Is setup mein text message nahi bheja jaata.",
+      "nameLabel": "Full name"
     },
     "consent": {
       "title": "Healix kya istemaal kar sakta hai?",
@@ -80,7 +81,12 @@
     "sosHint": "2 second tak dabakar rakhein",
     "profiles": "Profiles",
     "community": "Community",
-    "communityHint": "Anubhav share karein aur padhein"
+    "communityHint": "Anubhav share karein aur padhein",
+    "profile": "My profile",
+    "appointments": "Your appointments",
+    "appointmentStatus": "Appointment: {{status}}",
+    "appointmentSwapHint": "Open to see your token and swap requests.",
+    "swapStatus": "Token swap: {{status}}"
   },
   "triage": {
     "title": "Bataiye aapko kaisa lag raha hai",
@@ -646,5 +652,18 @@
     "reason": "Milne ka kaaran",
     "issued": "Token jaari hua",
     "directions": "Raasta dekhein"
+  },
+  "profilePage": {
+    "title": "My profile",
+    "subtitle": "Your details and previous visits",
+    "history": "Previous visits",
+    "loading": "Loading your visits…",
+    "loadFailed": "We could not load your visit history. Please try again.",
+    "empty": "Your completed and current visits will appear here.",
+    "noProfile": "No profile is selected.",
+    "ageAndSex": "{{age}} years · {{sex}}",
+    "conditions": "Health conditions: {{conditions}}",
+    "language": "Language: {{language}}",
+    "none": "None listed"
   }
 }

@@ -575,7 +575,7 @@ export class MockWorld {
     return this.engine
       .allQueues()
       .flatMap((queue) => queue.tokens)
-      .filter((token) => token.profileId && profileIds.has(token.profileId) && (token.status === "waiting" || token.status === "called"))
+      .filter((token) => token.profileId && profileIds.has(token.profileId))
       .map((token) => this.tokenView(token));
   }
 

@@ -1,8 +1,9 @@
 import { useQuery } from "@tanstack/react-query";
-import { FileText, MessageCircle, Stethoscope, Users } from "lucide-react";
+import { FileText, MessageCircle, Stethoscope, Users, UserRound } from "lucide-react";
 import { useTranslation } from "react-i18next";
 import { Link, useNavigate } from "react-router-dom";
 import { backend } from "@core/api/backend";
+import { ApiError } from "@core/api/error";
 import { activeProfile } from "@core/store/session";
 import { Card } from "../../components/base/Card";
 import { ProfileSwitcher } from "../../components/signature/ProfileSwitcher";
@@ -31,7 +32,23 @@ export default function Home() {
   const elderMode = usePreferences((state) => state.elderMode);
 
   const tokens = useQuery({ queryKey: ["tokens", "mine"], queryFn: () => backend.myTokens(), refetchInterval: 15_000, retry: 1 });
-  const todaysToken = (tokens.data ?? []).find((token) => token.profile_id === profile?.id);
+  const appointments = (tokens.data ?? []).filter((token) => token.profile_id === profile?.id && (token.status === "waiting" || token.status === "called"));
+  const todaysToken = appointments[0];
+  const swaps = useQuery({
+    queryKey: ["swap", "home", appointments.map((appointment) => appointment.id)],
+    enabled: appointments.length > 0,
+    queryFn: async () => Promise.all(appointments.map(async (appointment) => {
+      try {
+        return [appointment.id, await backend.latestSwap(appointment.id)] as const;
+      } catch (cause) {
+        if (cause instanceof ApiError && cause.status === 404) return [appointment.id, null] as const;
+        throw cause;
+      }
+    })),
+    refetchInterval: 3000,
+    retry: 0,
+  });
+  const swapByToken = new Map(swaps.data ?? []);
 
   const goToTriage = (text?: string) => navigate(text ? `/app/triage?q=${encodeURIComponent(text)}` : "/app/triage");
 
@@ -40,6 +57,9 @@ export default function Home() {
       <header className="flex flex-col gap-3">
         <h1 className="type-h2">{t("home.greeting", { name: (profile?.name ?? user?.name ?? "").split(" ")[0] })}</h1>
         <ProfileSwitcher profiles={user?.profiles ?? []} activeId={profile?.id ?? null} onSelect={selectProfile} />
+        <Link to="/app/profile" className="type-button inline-flex min-h-11 w-fit items-center gap-2 rounded-pill border border-line bg-surface px-4 text-ink hover:border-ink-3">
+          <UserRound size={18} aria-hidden="true" />{t("home.profile")}
+        </Link>
       </header>
 
       {todaysToken ? (
@@ -50,7 +70,27 @@ export default function Home() {
             ahead={todaysToken.ahead}
             doctorLine={`${todaysToken.doctor_name} · ${todaysToken.room}`}
           />
+          <p className="type-small mt-1">{t("home.appointmentStatus", { status: t(`tokenView.status.${todaysToken.status}`) })}</p>
         </Link>
+      ) : null}
+
+      {todaysToken && swapByToken.get(todaysToken.id) ? (
+        <p role="status" className="type-small rounded-small bg-stage p-3">
+          {t("home.swapStatus", { status: t(`swap.${swapByToken.get(todaysToken.id)?.state}`) })}
+        </p>
+      ) : null}
+
+      {appointments.length > 1 ? (
+        <section aria-labelledby="home-appointments" className="flex flex-col gap-3">
+          <h2 id="home-appointments" className="type-h3">{t("home.appointments")}</h2>
+          {appointments.filter((appointment) => appointment.id !== todaysToken?.id).map((appointment) => (
+            <Link key={appointment.id} to={`/app/token/${appointment.id}`} className="block rounded-card border border-line bg-surface p-4 shadow-card">
+              <p className="type-h3">{appointment.label} · {appointment.doctor_name}</p>
+              <p className="type-small mt-1">{t("home.appointmentStatus", { status: t(`tokenView.status.${appointment.status}`) })}</p>
+              {swapByToken.get(appointment.id) ? <p className="type-small mt-1">{t("home.swapStatus", { status: t(`swap.${swapByToken.get(appointment.id)?.state}`) })}</p> : <p className="type-small mt-1">{t("home.appointmentSwapHint")}</p>}
+            </Link>
+          ))}
+        </section>
       ) : null}
 
       <Card tint="stage" className="flex flex-col items-center gap-4 text-center">
