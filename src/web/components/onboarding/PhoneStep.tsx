@@ -123,7 +123,7 @@ export function PhoneStep({ total, onBack, onNext }: { total: number; onBack: ()
           aria-invalid={error !== null}
           aria-describedby={error ? "otp-error" : undefined}
         />
-        {isMock ? <p className="type-small">{t("onboarding.phone.demoHint")}</p> : null}
+        <p className="type-small">{t("onboarding.phone.demoHint")}</p>
         {error ? (
           <p id="otp-error" role="alert" className="type-small !text-alert-text">
             {error}

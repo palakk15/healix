@@ -22,5 +22,5 @@
       "@web/*": ["./src/web/*"]
     }
   },
-  "include": ["src", "server", "scripts", "tests", "vite.config.ts", "vitest.config.ts", "playwright.config.ts"]
+  "include": ["api", "src", "server", "scripts", "tests", "vite.config.ts", "vitest.config.ts", "playwright.config.ts"]
 }
